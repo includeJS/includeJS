@@ -1,0 +1,217 @@
+---
+path: "/django-pt-1"
+date: "2020-05-09"
+title: "Learning Django Part 1 🎸"
+tags: ["django", "python"]
+excerpt: "My notes from the Python Django Tutorial (parts 1-3) by Corey Schafer"
+link: "https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=1"
+---
+
+[Codebase](https://github.com/CoreyMSchafer/code_snippets/tree/master/Django_Blog)
+
+## Part 1: Initializing a Django Application
+
+- Django is a `python` framework - it makes it easy to build web applications using Python.
+- Django has a nice Django Administrator GUI, which makes creating/managing faster!
+
+Things to be mindful of when building webapps:
+
+- how to interact with the database
+- how to authenticate users
+- how to accept user input
+
+It's a good idea to separate projects into their own virtual environments.
+
+- `python3 -m venv djangopod`
+
+Start a new virtual environment.
+
+`source djangopod/bin/activate`
+
+To activate the virtual environment. And to turn it off, just type `deactivate`.
+
+- `pip install django`
+
+Installs django.
+
+- `python -m django --version`
+
+Check if django is installed.
+
+- `django-admin`
+
+See what `django` commands are available.
+
+- `django-admin startproject djangoTime`
+
+Start a new `django` project.
+
+Project structure:
+
+```
+.
+├── djangoTime
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── manage.py
+```
+
+- `manage.py`
+
+Allows us to run command-line commands.
+
+- `__init__.py`
+
+Tells us that this is a `python` package.
+
+- `urls.py`
+
+For mapping urls.
+
+We'll only be changing two files: `settings.py` and `urls.py`.
+
+- `python manage.py runserver`
+
+To start the server.
+
+`http://127.0.0.1:8000/` === `http://localhost:8000/`
+
+## Part 2: Adding the Blog Application and Some Routes
+
+- `python manage.py startapp blog`
+
+To create a new application inside our main django app.
+
+```
+.
+├── blog
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── db.sqlite3
+├── djangoTime
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-37.pyc
+│   │   ├── settings.cpython-37.pyc
+│   │   ├── urls.cpython-37.pyc
+│   │   └── wsgi.cpython-37.pyc
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── manage.py
+```
+
+- `blog/views.py`
+
+Create some changes that we can actually view!
+
+```python
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+def home(request):
+    return HttpResponse('<h1>Blog Home</h1>')
+
+
+def about(request):
+    return HttpResponse('<h1>Blog About</h1>')
+```
+
+Create `urls.py` in the `blog` directory to map that `view` to a route.
+
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='blog-home'),
+    path('about/', views.about, name='blog-about'),
+]
+```
+
+You need to include the `blog` urls into the main project urls.
+
+```python
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),
+]
+```
+
+Note that once you have added some of your own routes it will stop displaying the default `django` welcome page.
+
+## Part 3: Templates
+
+In `blog` create `templates/blog`
+
+We need to add our `BlogConfig` to the list of installed apps (in `settings.py`).
+
+```python
+INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
+```
+
+- It's good practice to add your new application to the `settings.py` immediately once it was created (lest you forget!)
+
+Once the template is ready, we need to tell the `blog` `views` to go and use it.
+
+```python
+def home(request):
+    # specifying the subdirectory in our templates directory
+    return render(request, 'blog/home.html')
+```
+
+- The `render` function also accepts an optional third argument where we can add options to our templates.
+
+Remove: `from django.http import HttpResponse` since we're not using it anymore.
+
+You can also pass in some content to the template:
+
+```python
+posts = [
+    {
+      'author': 'CoreyMS',
+      'title': 'Blog Post 1',
+      'content': 'First post content',
+      'date_posted': 'August 27, 2018'
+    },
+    {
+      'author': 'Jane Doe',
+      'title': 'Blog Post 2',
+      'content': 'Second post content',
+      'date_posted': 'August 28, 2018'
+    }
+]
+
+def home(request):
+    context = {
+        'posts': posts
+    }
+    # now posts will be available from our template
+    return render(request, 'blog/home.html', context)
+```
+
+🤔 Objects are called dictionaries in `python`.
+
+We can loop over the posts in our template!
+
+Template inheritance: create a `base.html` for the common content (`header`, `footer`, `scripts` etc)
+
+🤔 A "block" is a section that child templates can override.
+
+- Static files (like `css` files) need to be located in a static directory. Let's create `blog/static/blog` and put our `main.css` file in there.
+
+Use dynamic urls (the ones from "blog/urls.py"):
