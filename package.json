@@ -4,7 +4,8 @@
   "description": "includeJS",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "npx eleventy --serve",
+    "production": "npx eleventy"
   },
   "keywords": [
     "includejs"
