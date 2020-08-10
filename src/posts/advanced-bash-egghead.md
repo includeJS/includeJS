@@ -1,12 +1,11 @@
 ---
-
-path: '/advanced-bash'
+path: "/advanced-bash"
 date: "2020-04-18"
-title: 'More Bash Bashing 💪'
-tags: ['bash', 'terminal', 'productivity', 'shortcuts', 'command line', 'egghead']
-excerpt: 'Advanced Bash Automation for Web Developers'
-link: 'https://egghead.io/courses/advanced-bash-automation-for-web-developers'
-
+title: "More Bash Bashing"
+tags:
+  ["bash", "terminal", "productivity", "shortcuts", "command line", "egghead"]
+excerpt: "Advanced Bash Automation for Web Developers"
+link: "https://egghead.io/courses/advanced-bash-automation-for-web-developers"
 ---
 
 ## Scripts and Expansions
@@ -71,12 +70,14 @@ done
 ```
 
 Use jq and grep to find unused dependencies.
+
 - `keys`: to get just the keys out of the jq object
 - `.[]`: array value iterator to get the values in a separate line
 - `r`: flag in jq means raw text (no quotations)
 - `Rq`: recursive and quiet
 
 ## `exec`
+
 Changes where `stdout` and `stderr` go for all commands that come after it.
 
 `exec >> log/hooks-out.log 2>&1`
@@ -97,9 +98,10 @@ else
  echo "$(date): No changes in package.json found"
 fi
 ```
+
 Check if `package.json` has been changed and run `npm install` if it did.
 
-* `npm install > /dev/null`
+- `npm install > /dev/null`
 
 If you output to `/dev/null` the output will be discarded. Note that errors will still be outputed.
 
@@ -121,14 +123,14 @@ A script that extracts a file archive, depending on the file extension.
 
 ## Random
 
-* `#!/usr/bin/env node`
+- `#!/usr/bin/env node`
 
 This tells the shell to use the `node` binary in your environment to execute this file.
 
-* `.plist`
+- `.plist`
 
 A `.plist` file is an `XML`-formatted file for macOS.
 
-* `~/Library/LaunchAgents/`
+- `~/Library/LaunchAgents/`
 
 List all applications with job configuration.

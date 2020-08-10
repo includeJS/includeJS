@@ -1,53 +1,51 @@
 ---
-
-path: '/browser-shortcuts'
+path: "/browser-shortcuts"
 date: "2020-05-19"
-title: 'Chrome/Firefox Keyboard Shortcuts (for developers) ⌨️'
-tags: ['productivity', 'chrome', 'firefox', 'keyboard shortcuts']
-excerpt: 'Use The Keyboard (one of the resources I used)'
-link: 'https://usethekeyboard.com/'
-
+title: "Chrome/Firefox Keyboard Shortcuts (for developers)"
+tags: ["productivity", "chrome", "firefox", "keyboard shortcuts"]
+excerpt: "Use The Keyboard (one of the resources I used)"
+link: "https://usethekeyboard.com/"
 ---
 
 ## Navigation
 
-* `ctrl a` and `ctrl e`
+- `ctrl a` and `ctrl e`
 
 For moving to the beginning/end of the line (just like in your terminal/command line!)
 
-* `cmd + l`
+- `cmd + l`
 
 Bring the URL bar into focus.
 
-* `cmd + enter`
+- `cmd + enter`
 
 Duplicate the current tab (while in URL focus).
 
-* `cmd + shift + t`
+- `cmd + shift + t`
 
 Open a tab you just closed (a lifesaver for my trigger-happy fingers).
 
-* `cmd + d`
+- `cmd + d`
 
 Add a bookmark (extra tip: when saving bookmarks to the bookmarks bar, delete all the text meaning only an icon will get displayed => you can cram many more bookmarks into your bookmarks bar 💪).
 
 ## Dev tools
 
- * `cmd + shift + c`
+- `cmd + shift + c`
 
 Toggles the inspect element mode (and makes for faster DOM inspection).
 
-* Toggle the `console` from dev tools by pressing `esc` key.
+- Toggle the `console` from dev tools by pressing `esc` key.
 
-* `cmd+ option + i`
+- `cmd+ option + i`
 
 To open the dev tools (in the last panel you used).
 
-* `shift + enter`
+- `shift + enter`
 
 For a multi-line entry (in the `Console`)
 
-* `cmd + [` and `cmd + ]`
+- `cmd + [` and `cmd + ]`
 
 To focus next/previous panel in the dev tools.
 
@@ -63,10 +61,10 @@ To get that data onto your clipboard type: `copy(temp1)` 🤯
 
 ## Firefox extras
 
-* `cmd + shift + p`
+- `cmd + shift + p`
 
 To start private browsing.
 
-* `cmd + k`
+- `cmd + k`
 
 Move focus to the Search bar.

@@ -1,21 +1,21 @@
 ---
-
-path: '/remy-CLI'
+path: "/remy-CLI"
 date: "2020-03-21"
-title: "My notes from Remy's Command Line Course"
-tags: ['courses', 'terminal', 'command line', 'zsh', 'brew']
-excerpt: 'Learn command line pipes, alias, zsh, string processing and more.'
-link: 'https://remysharp.com/2018/08/23/cli-improved'
-
+title: "Notes from Command Line Course by Remy Sharp"
+tags: ["courses", "terminal", "command line", "zsh", "brew"]
+excerpt: "Learn command line pipes, alias, zsh, string processing and more."
+link: "https://remysharp.com/2018/08/23/cli-improved"
 ---
+
 ## List
+
 - **`ls -ltr`**
 
 l = list,
 t = sort by time modified,
 r = reverse results
 
--  **`cd -`**
+- **`cd -`**
 
 Go to the last directory.
 
@@ -76,6 +76,7 @@ Follow the file stream (will continue to print newlines).
 - **`less`**
 
 For file pagination:
+
 - b navigate backward
 - f navigate forward
 

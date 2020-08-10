@@ -1,21 +1,21 @@
 ---
-
-path: '/pragmatic-fluent-vscode'
+path: "/pragmatic-fluent-vscode"
 date: "2020-06-14"
-title: 'VSCode Keyboard Shorcuts & Achieving Editor Fluency ⌨️'
-tags: ['productivity', 'vscode', 'pragmatic', 'keyboard shortcuts']
-excerpt: 'From The Pragmatic Programmer, 20th Anniversary Edition'
-link: 'https://pragprog.com/titles/tpp20/'
-
+title: "VSCode Keyboard Shorcuts & Achieving Editor Fluency"
+tags: ["productivity", "vscode", "pragmatic", "keyboard shortcuts"]
+excerpt: "From The Pragmatic Programmer, 20th Anniversary Edition"
+link: "https://pragprog.com/titles/tpp20/"
 ---
 
 Emoji legend
+
 - ✅ already mastered
 - 🥊 needs more practice
 - 📕 need to be learned
 - 🤷‍♀️ not sure if useful
 
 ## 1. When editing text, move and make selection by:
+
 ### Character
 
 - 🥊 `shift + (left/right) arrow`
@@ -23,6 +23,7 @@ Emoji legend
 Select character by character.
 
 ### Word
+
 - ✅ `alt + (left/right) arrow`
 
 Navigate word by word.
@@ -36,6 +37,7 @@ Select word by word.
 Remove word by word.
 
 ### Line
+
 - ✅ `cmd + (left/right) arrow`
 
 Move to the beginning/end of the line.
@@ -101,6 +103,7 @@ Go to the next opened tab.
 Open a previously closed file.
 
 ## 2. When editing code, move by various syntactic units (matching delimiters, functions, modules...)
+
 - ✅ `cmd + shift + \`
 
 Go to the matching opening/closing bracket.
@@ -110,15 +113,19 @@ Go to the matching opening/closing bracket.
 Navigate by symbols.
 
 ## 3. Reindent code following changes
+
 - ✅ `cmd + [` or `cd + ]`
 
 ## 4. Comment and uncomment blocks of code with a single command.
+
 - ✅ `cmd + /`
 
 ## 5. Undo and redo changes.
+
 - ✅ `cmd + z` and `cmd + shift + z`
 
 ## 6. Split the editor window into multiple panels, and navigate between them.
+
 - 🥊 `cmd + \`
 
 Split editor.
@@ -128,14 +135,17 @@ Split editor.
 Focus a specific editor window.
 
 ## 7. Navigate to a particular line number.
+
 - 📕 `ctrl + g`
 
 ## 8. Sort selected lines.
+
 - 🤷‍♀️ `cmd + shift + p`
 
 (or `F1`) to access the command palette, then run sort lines.
 
 ## 9. Search for both strings and regular expressions, and repeat previous searches.
+
 - ✅ `cmd +f`
 
 Search in the current document.
@@ -149,6 +159,7 @@ Search in the current workspace.
 Toggle replace mode.
 
 ## 10. Temporarily create multiple cursors based on a selection or on a pattern match, and edit the text at each in parallel.
+
 - ✅ `cmd + click`
 
 Insert cursor (press `Escape` to remove the temporary cursors).
@@ -162,6 +173,7 @@ Select the next match.
 De-select previous match.
 
 ## 11. Display compilation errors in the current project.
+
 - ✅ `cmd + .`
 
 To open the quick-fix context menu.
@@ -177,11 +189,12 @@ Go to the next error warning.
 Open the command palette, then run all tests?
 
 ## Bonus (added by me):
+
 - 📕 `cmd + k + z`
 
 Enter the zen mode.
 
-- 📕 `cmd + `
+- 📕 `cmd +`
 
 Toggle between different VScode workspaces.
 

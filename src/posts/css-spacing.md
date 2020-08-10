@@ -1,38 +1,39 @@
 ---
-
-path: '/css-spacing'
+path: "/css-spacing"
 date: "2020-04-28"
-title: 'CSS and Spacing 📏'
-tags: ['css', 'design', 'UI']
-excerpt: 'From the article: Spacing in CSS'
-link: 'https://ishadeed.com/article/spacing-in-css/'
-
+title: "CSS and Spacing"
+tags: ["css", "design", "UI"]
+excerpt: "From the article: Spacing in CSS"
+link: "https://ishadeed.com/article/spacing-in-css/"
 ---
 
-
 Spacing can be divided into two groups:
+
 - inner spacing (`padding`)
 - outer spacing (`margin`)
 
 ## What's a margin collapse?
+
 Margin collapse happens when two vertical elements have a margin, and one of them has a greater margin than the other. In that case, the greater margin will be used, and the other will be ignored.
 
 🔨 To fix: Use a single direction margin, e.g.:
+
 ```css
 .element:not(:last-child) {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 ```
 
 🤔 If both the parent and the child have a margin, the child's margin will be collapsed.
 
 🔨To fix:
+
 - Add a `border` to the parent element OR
 - Change the child element `display` to `inline-block` OR
 - Add `padding-top` to the parent element.
 
-
 ## Padding is not working
+
 Vertical padding doesn’t work with elements that have display: inline, like `<span>` or `<a>`.
 
 🔨 To fix: need to do `display: inline-block;`
@@ -46,6 +47,7 @@ Learn about [Right to Left styling](https://rtlstyling.com/posts/rtl-styling#int
 Flexbox doesn't have a gap property, like `grid-gap`.
 
 🔨 to fix:
+
 - Add `padding-left` to the grid item AND
 - Add a negative `margin-left` with the same padding-left value to the grid parent.
 
