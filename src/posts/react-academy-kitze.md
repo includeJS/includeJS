@@ -1,12 +1,10 @@
 ---
-
-path: '/react-academy-kitze'
+path: "/react-academy-kitze"
 date: "2020-03-02"
-title: 'React Academy by Kitze'
-tags: ['courses', 'workshop', 'reactJS']
-excerpt: 'My notes from the React Academy (Advanced ReactJS course) by Kitze'
-link: 'https://www.reactacademy.io/'
-
+title: "React Academy by Kitze"
+tags: ["courses", "workshop", "reactJS"]
+excerpt: "My notes from the React Academy (Advanced ReactJS course) by Kitze"
+link: "https://www.reactacademy.io/"
 ---
 
 I'm not to 🔥 on conferences and workshops (they tend to be overhyped), but today I had the pleasure of attending React Academy - a hands-on advanced ReactJS workshop by Kitze (sounds like a perfume, but he's not! 😃).
@@ -22,16 +20,6 @@ Just like with reusable components, you should start building a library of reusa
 2. **Ideally, the custom hook should return an object**
 
 Abstract the custom hooks (like a util function) and make it return an object - they are easy to destructure and good for avoiding repetition.
-```
-export const useInput = initialValue => {
-  const [value, setValue] = useState(initialValue);
-
-  return {
-    value,
-    onChange: e => setValue(e.target.value)
-  };
-};
-```
 
 3. **useEffect is super 💪**
 
@@ -51,52 +39,24 @@ const useDocumentTitle = title => {
 
 Kitze swears by mobx, in particular [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree). Similar to Redux, but with observables - therefore more performant and with less fiddling around `mapstatetoprops` etc.
 
-
 5. **Use `ReactContext`, sometimes**
 
 For sharing global states (and to avoid passing props to child, to child, to child, to grand-child...). Works great with hooks (and `GraphQL`).
 For managing lots of state, `Redux` is more performant (and apparantely mobx even better - see above).
 
-
 6. **React Compound Component**
 
 Smooshing several components together using `Context AP` to allow components to somehow manage state among themselves (like `Tabs` and `Tab` or `Select` and `Option`).
-
 
 7. **React Controlled Components**
 
 Is controlling your components from their parent, but having access to their inner states (kind of like what you are doing with `input` and their `value`).
 
-
-
 8. **Use `React.lazy` and `Suspense` for loading the heavy stuff later**
 
 This will make a separate request only once the component is rendered (make sure to provide a fallback a.k.a. skeleton!).
-```
-import { Suspense, lazy } from 'react';
-<!-- import Timer from './Timer'  -->
-const Timer = React.lazy(() => import('./Timer'));
-
-  <Suspense fallback={<div>Loading...</div>}>
-    <Timer />
-  </Suspense>
-```
-
 
 9. **useRef to access the previous value**
-
-```
-function usePrevious(value) {
-  const ref = useRef();
-
-  useEffect(() => {
-    ref.current = value;
-  }, [value]);
-
-  return ref.current;
-}
-```
-
 
 10. **And, most importantly**
 

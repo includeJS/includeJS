@@ -33,29 +33,9 @@ Random: MongoDB is mostly written in C++, but other languages too.
 
 Use [Mongoose](https://mongoosejs.com/) to connect your `node.js` application to a mongoDB database.
 
-Example code for connection:
-
-const mongoose = require("mongoose");
-mongoose.Promise = global.Promise;
-
-const connect = (url) =>
-mongoose.connect(url, {
-useNewUrlParser: true,
-});
-
-module.exports = connect;
-
 - The default `mongodb` port is: port 27017.
 
 **3. Schemas, models, collections**
-
-Creating a new schema:
-
-```
-new mongoose.Schema({
-
-})
-```
 
 Use built-in JS primitives as typings. 👍
 
