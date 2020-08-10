@@ -1,12 +1,10 @@
 ---
-
-path: '/zsh-alias'
+path: "/zsh-alias"
 date: "2020-04-09"
-title: 'My zsh ❤️ Aliases '
-tags: ['productivity', 'bash', 'ohmyzsh', 'config', 'dotfiles']
-excerpt: 'I use ohmyzsh for my zsh configuration.'
-link: 'https://github.com/ohmyzsh/ohmyzsh'
-
+title: "My zsh Aliases"
+tags: ["productivity", "bash", "ohmyzsh", "config", "dotfiles"]
+excerpt: "I use ohmyzsh for my zsh configuration."
+link: "https://github.com/ohmyzsh/ohmyzsh"
 ---
 
 This post features my ever-growing list of `alias`-es. I will write about my `oh-my-zsh` theme settings and plugins in another post 👍.
@@ -16,7 +14,6 @@ My `zsh` aliases are written in a separate file and loaded in my `.zshrc` file l
 - **`source $HOME/dotfiles/zsh/aliases.zsh`**
 
 I'm using [`homebrew`](https://brew.sh/) as my package manager.
-
 
 ## Miscellaneous aliases
 
@@ -61,4 +58,5 @@ Because being polite is cool.
 Display the last ten directories.
 
 ## Git aliases
+
 I wrote about them [here](https://includejs.dev/smashing-git).
