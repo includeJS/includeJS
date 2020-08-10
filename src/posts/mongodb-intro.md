@@ -35,17 +35,15 @@ Use [Mongoose](https://mongoosejs.com/) to connect your `node.js` application to
 
 Example code for connection:
 
-```js
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
 const connect = (url) =>
-  mongoose.connect(url, {
-    useNewUrlParser: true,
-  });
+mongoose.connect(url, {
+useNewUrlParser: true,
+});
 
 module.exports = connect;
-```
 
 - The default `mongodb` port is: port 27017.
 
