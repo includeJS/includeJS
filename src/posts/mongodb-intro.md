@@ -1,12 +1,10 @@
 ---
-
-path: '/mongodb-intro'
+path: "/mongodb-intro"
 date: "2020-03-11"
 title: "My notes from the MongoDB intro on FEM"
-tags: ['fem', 'courses', 'database', 'mongodb']
+tags: ["fem", "courses", "database", "mongodb"]
 excerpt: "My notes on Introduction to MongoDb available on FrontEndMasters."
-link: 'https://frontendmasters.com/courses/mongodb/'
-
+link: "https://frontendmasters.com/courses/mongodb/"
 ---
 
 **1. Setup**
@@ -31,29 +29,30 @@ Use schemas to validate your data and stay consistent. 👍
 
 Random: MongoDB is mostly written in C++, but other languages too.
 
-
 **2. MongoDB and Mongoose**
 
 Use [Mongoose](https://mongoosejs.com/) to connect your `node.js` application to a mongoDB database.
 
 Example code for connection:
-```
-const mongoose = require('mongoose')
-mongoose.Promise = global.Promise
 
-const connect = (url) => mongoose.connect(url, {
-  useNewUrlParser: true
-})
+```js
+const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
 
-module.exports = connect
+const connect = (url) =>
+  mongoose.connect(url, {
+    useNewUrlParser: true,
+  });
+
+module.exports = connect;
 ```
 
 - The default `mongodb` port is: port 27017.
 
-
 **3. Schemas, models, collections**
 
 Creating a new schema:
+
 ```
 new mongoose.Schema({
 
@@ -115,7 +114,6 @@ school: {
 
 "Population is the process of automatically replacing the specified paths in the document with document(s) from other collection(s)."
 
-
 You can also add query filters:
 
 ```
@@ -128,6 +126,7 @@ const postByContentLength = (maxContentLength, minContentLength) => {
 ```
 
 Add related posts to a post:
+
 ```
 const addSimilarPosts = (postId, similarPosts) => {
   return Post.findByIdAndUpdate(postId, {
@@ -137,6 +136,7 @@ const addSimilarPosts = (postId, similarPosts) => {
 ```
 
 **6. Virtuals**
+
 - A virtual is a field that doesn't exist in a database, but gets created at runtime. You can `get()` or `set()` virtuals. `._id` is a built-in virtual.
 
 ```
