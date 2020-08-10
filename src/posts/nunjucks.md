@@ -9,8 +9,6 @@ link: "https://mozilla.github.io/nunjucks/templating.html"
 
 ## What is Nunjucks?
 
-Nunjucks is a templating language by Mozilla ❤️.
-
 A templating language is like a preprocessor for HTML (what SASS is to CSS) 👍.
 
 Template engines are tools that help us break HTML code into smaller pieces that we can reuse across multiple HTML files.

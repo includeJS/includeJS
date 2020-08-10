@@ -11,7 +11,7 @@ Note: I'm not a very familiar with `webpack`, so I skipped most of the tips conc
 
 ## React
 
-### Debugging:
+### Debugging
 
 - In Performance, once you've recorded a profile, go to **Timings** too see which components were rendered and when (good for debugging) - unfortunately this will be removed from React [link](https://github.com/facebook/react/pull/18417).
 
