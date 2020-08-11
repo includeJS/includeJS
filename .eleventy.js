@@ -7,6 +7,7 @@ module.exports = (config) => {
   config.setUseGitIgnore(false);
   config.setQuietMode(true);
   config.addPassthroughCopy("./src/images/");
+
   config.addCollection("blog", (collection) => {
     return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
   });
