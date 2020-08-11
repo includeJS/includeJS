@@ -4,6 +4,7 @@ const rssPlugin = require("@11ty/eleventy-plugin-rss");
 
 module.exports = (config) => {
   config.addPlugin(rssPlugin);
+  config.setUseGitIgnore(false);
   config.setQuietMode(true);
   config.addPassthroughCopy("./src/images/");
   config.addCollection("blog", (collection) => {
