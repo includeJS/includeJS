@@ -1,24 +1,20 @@
-$navy: #13204a;
-$aqua: #7fe3e9;
-$violet: #7200ff;
-$blue: #0066ff;
-$pink: #d3307c;
-$turqoise: #55bbc6;
+$violet: #19216c;
+$yellow: #f7c948;
+$green: #51ca58;
+$pink: #da127d;
+$cyan: #1cd4d4;
 
 $white: #ffffff;
-$lighter_grey: #fafafa;
-$light_grey: #f0f0f0;
-$medium_grey: #c2c2c2;
-$text_grey: #4c4c4c;
-$dark_grey: #2e2e2e;
-$darker_grey: #0e1015;
+$lighter_grey: #f5f7fa;
+$light_grey: #e4e7eb;
+$medium_grey: #9aa5b1;
+$text_grey: #323f4b;
+$dark_grey: #1f2933;
 
-$inc-color-body: scale-color($navy, $lightness: -30%, $saturation: -50%);
-$inc-color-light: $aqua;
+$inc-color-body: scale-color($violet, $lightness: -20%, $saturation: -50%);
+// $inc-color-body: $dark_grey;
+$inc-color-light: $cyan;
 
-/***********
-* 2. Fonts
-***********/
 $inc-body-font: "Duru Sans", "Hind Madurai", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
   "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 $inc-heading-font: "Oswald", sans-serif;

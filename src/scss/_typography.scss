@@ -14,7 +14,7 @@ h1,
 h2,
 h3 {
   font-family: $inc-heading-font;
-  color: $navy;
+  color: $violet;
   line-height: 1.15;
 }
 
@@ -28,7 +28,7 @@ h1,
 h2,
 .inc-h2 {
   font-size: $inc-h2-font-size;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 h3,
@@ -45,9 +45,14 @@ li {
 }
 
 a {
-  color: $navy;
+  color: $violet;
   text-decoration: none;
+  padding: 0.5rem 0.25rem;
+  // text-decoration: underline;
+  // text-underline-position: under;
+
   &:hover {
-    color: $aqua;
+    color: white;
+    background-color: $yellow;
   }
 }
