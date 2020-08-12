@@ -1,0 +1,33 @@
+$navy: #13204a;
+$aqua: #7fe3e9;
+$violet: #7200ff;
+$blue: #0066ff;
+$pink: #d3307c;
+$turqoise: #55bbc6;
+
+$white: #ffffff;
+$lighter_grey: #fafafa;
+$light_grey: #f0f0f0;
+$medium_grey: #c2c2c2;
+$text_grey: #4c4c4c;
+$dark_grey: #2e2e2e;
+$darker_grey: #0e1015;
+
+$inc-color-body: scale-color($navy, $lightness: -30%, $saturation: -50%);
+$inc-color-light: $aqua;
+
+/***********
+* 2. Fonts
+***********/
+$inc-body-font: "Duru Sans", "Hind Madurai", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+  "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$inc-heading-font: "Oswald", sans-serif;
+
+$inc-strong-font-weight: 900;
+$inc-h1-font-size: 4.209rem;
+$inc-h2-font-size: 3.157rem;
+$inc-h3-font-size: 2.369rem;
+$inc-h4-font-size: 1.777rem;
+$inc-text-font-size: 1.8rem;
+$inc-text-font-size-small: 1.2rem;
+$inc-allcaps-font-size: 0.85rem;
