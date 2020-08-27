@@ -1,4 +1,9 @@
 module.exports = {
+  getReadingTime(text) {
+    const wordsPerMinute = 200;
+    const numberOfWords = text.split(/\s/g).length;
+    return Math.ceil(numberOfWords / wordsPerMinute);
+  },
   getSiblingContent(collection, item, limit = 3, random = true) {
     let filteredItems = collection.filter((x) => x.url !== item.url);
 

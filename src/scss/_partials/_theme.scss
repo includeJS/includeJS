@@ -1,0 +1,30 @@
+$violet: #19216c;
+$yellow: #f7c948;
+$green: #51ca58;
+$pink: #da127d;
+$cyan: #1cd4d4;
+
+$white: #ffffff;
+$dark_grey: #1f2933;
+
+$BASE_UNIT: 100px;
+
+$FONT_NORMAL: Helvetica Neue, Helvetica, Arial, sans-serif;
+$FONT_HEADINGS: Helvetica Neue, Helvetica, Arial, sans-serif;
+$FONT_MONO: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+
+$RATIO: 1.4;
+
+$SCALE--2: 1rem / $RATIO / $RATIO;
+$SCALE--1: 1rem / $RATIO;
+$SCALE-0: 1rem;
+$SCALE-1: 1rem * $RATIO;
+$SCALE-2: 1rem * $RATIO * $RATIO;
+$SCALE-3: 1rem * $RATIO * $RATIO * $RATIO;
+$SCALE-4: 1rem * $RATIO * $RATIO * $RATIO * $RATIO;
+$SCALE-5: 1rem * $RATIO * $RATIO * $RATIO * $RATIO * $RATIO;
+
+$COLOR_LIGHTER: #f5f7fa;
+$COLOR_LIGHT: #e4e7eb;
+$COLOR_MID: #9aa5b1;
+$COLOR_DARK: #323f4b;

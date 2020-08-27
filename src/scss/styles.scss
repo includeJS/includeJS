@@ -1,4 +1,14 @@
-@import "reset";
-@import "theme";
-@import "typography";
-@import "utilities";
+@import "./_partials/theme";
+@import "./_partials/reset";
+@import "./_partials/typography";
+@import "./_partials/utilities";
+@import "./_partials/highlight";
+
+@import "./_partials/container";
+@import "./_partials/jumbo";
+@import "./_partials/site-foot";
+@import "./_partials/stack";
+@import "./_partials/markdown-content";
+@import "./_partials/site-head";
+@import "./_partials/nav";
+@import "./_partials/page";
