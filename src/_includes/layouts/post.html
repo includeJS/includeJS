@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %}
 
 {% set pageHeaderTitle = title %}
-{% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
+{% set recommendedPosts = helpers.getSiblingContent(collections.notes, page) %}
 {% set pageHeaderSummary %}
 <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
 {% if tags %}
@@ -26,7 +26,7 @@
   {% if recommendedPosts %}
   <footer class="recommended-posts">
     {% set postListItems = recommendedPosts %}
-    {% set postListHeadline = 'More from the blog' %}
+    {% set postListHeadline = 'More from the notes' %}
     {% include "partials/post-list.html" %}
   </footer>
   {% endif %}

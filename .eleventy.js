@@ -1,6 +1,7 @@
 const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
+const site = require("./src/_data/site.js");
 
 module.exports = (config) => {
   config.addPlugin(rssPlugin);
@@ -8,8 +9,14 @@ module.exports = (config) => {
   config.setQuietMode(true);
   config.addPassthroughCopy("./src/images/");
 
-  config.addCollection("blog", (collection) => {
-    return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+  config.addCollection("notes", (collection) => {
+    return [...collection.getFilteredByGlob("./src/notes/*.md")].reverse();
+  });
+
+  config.addCollection("notesFeed", (collection) => {
+    return [...collection.getFilteredByGlob("./src/notes/*.md")]
+      .reverse()
+      .slice(0, site.notesPerPage);
   });
 
   config.addFilter("dateFilter", dateFilter);
