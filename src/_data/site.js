@@ -15,6 +15,6 @@ module.exports = {
       highlight: "#666",
     },
   },
-  notesPerPage: 5,
+  notesPerPage: 4,
   // criticalCSS: false,
 };

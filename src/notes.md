@@ -1,13 +1,8 @@
 ---
-title: "Notes - today I learned"
-layout: "layouts/feed.html"
+title: "Notes"
+layout: "layouts/posts.html"
 pagination:
   data: collections.notes
   size: 5
-permalink: "notes{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html"
-paginationPrevText: "Newer notes"
-paginationNextText: "Older notes"
-paginationAnchor: "#post-list"
+  alias: notes
 ---
-
-What I learned yadayadayada

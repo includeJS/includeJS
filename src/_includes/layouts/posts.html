@@ -1,0 +1,20 @@
+{% extends 'layouts/base.html' %}
+
+{# Intro content #}
+{% set introHeading %}Notes{% endset %}
+{# Post list content #}
+{% set postListItems = notes %}
+
+{% if postListItems.length < collections.notes.length %}
+  {% set paginationNextText = 'Next' %}
+  {% set paginationNextUrl = pagination.nextPageHref %}
+  {% set paginationPrevUrl = pagination.previousPageHref %}
+{% endif %}
+
+{% block content %}
+  <div class="l-stack l-stack--large l-stack--large">
+    {% include "partials/intro.html" %}
+    {% include "partials/post-list.html" %}
+    {% include "partials/pagination.html" %}
+  </div>
+{% endblock %}
