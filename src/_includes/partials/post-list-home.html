@@ -15,8 +15,8 @@
             <p>
               <time class="post-stack-date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
             </p>
-            {% if item.data.description %}
-              <p>{{item.data.description}}</p>
+            {% if item.data.excerpt %}
+              <p>{{item.data.excerpt}}</p>
             {% endif %}
           </li>
         {% endfor %}
