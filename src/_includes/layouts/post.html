@@ -1,35 +1,53 @@
-{% extends "layouts/base.html" %}
-
-{% set pageHeaderTitle = title %}
-{% set recommendedPosts = helpers.getSiblingContent(collections.notes, page) %}
-{% set pageHeaderSummary %}
-<time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
-{% if tags %}
-<p class="visually-hidden" id="tags-desc">Tags that this post has been filed under.</p>
-<ul class="tags-list list-unstyled" aria-describedby="tags-desc">
-  {% for tag in tags %}
-  <li>
-    <a href="/tag/{{ tag | slug }}/">#{{ tag | title | replace(' ', '') }}</a>
-  </li>
-  {% endfor %}
-</ul>
-{% endif %}
+{% extends 'layouts/base.html' %}
+{% set authorName = author if author else
+  site.authorName %}
+{% set introSummary %}
+<div class="l-stack">
+  {% if excerpt %}
+    <p class="post-description">{{ excerpt | safe }}</p>
+  {% endif %}
+  <p class="post-meta">
+    {% if date %}
+      Posted by {{ authorName }}
+      on <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
+    {% endif %} (about a {{ helpers.getReadingTime(content) }} minute read).
+  </p>
+</div>
 {% endset %}
 
 {% block content %}
-<article class="wrapper">
-  {% include "partials/page-header.html" %}
-
-  <div class="page-content">
-    {{ content | safe }}
+  <div class="l-stack">
+    <article class="h-entry t-page" class="l-container">
+      <div class="l-stack l-stack--large">
+        {% include "partials/post-intro.html" %}
+        <div class="l-container l-measure">
+          <div class="l-stack" >
+            {{ content | safe }}
+          </div>
+        </div>
+      </div>
+    </article>
+    <div class="l-container">
+      <footer class="l-stack">
+        {% if tags %}
+          <h2>Tags</h2>
+        {% endif %}
+        <div class="l-post-footer">
+          {% if tags %}
+            <ul class="l-post-tags">
+              {% for item in tags %}
+                <li>
+                  <a class="post-tag" href="/tags/{{ item }}">{{ item }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <div class="l-stack">
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="l-container l-measure">
+    </div>
   </div>
-  {% if recommendedPosts %}
-  <footer class="recommended-posts">
-    {% set postListItems = recommendedPosts %}
-    {% set postListHeadline = 'More from the notes' %}
-    {% include "partials/post-list.html" %}
-  </footer>
-  {% endif %}
-</article>
-
 {% endblock %}
