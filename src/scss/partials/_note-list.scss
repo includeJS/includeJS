@@ -1,12 +1,12 @@
-.l-post-list > * {
+.l-note-list > * {
   max-width: 60ch;
 }
 
-.l-post-list > * + * {
+.l-note-list > * + * {
   margin-top: 2rem;
 }
 
-.l-post-intro {
+.l-note-intro {
   padding: 3rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -14,16 +14,16 @@
   justify-content: center;
 }
 
-.l-post-intro > * + * {
+.l-note-intro > * + * {
   margin-top: 1rem;
 }
 
-.post-description {
+.note-description {
   font-weight: bold;
   font-size: $SCALE-1;
 }
 
-.post-meta {
+.note-meta {
   color: $COLOR_MID;
   font-size: $SCALE--1;
 }

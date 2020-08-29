@@ -1,6 +1,6 @@
 ---
 title: "Notes"
-layout: "layouts/posts.html"
+layout: "layouts/notes.html"
 pagination:
   data: collections.notes
   size: 5

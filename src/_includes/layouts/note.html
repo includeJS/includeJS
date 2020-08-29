@@ -4,11 +4,11 @@
 {% set introSummary %}
 <div class="l-stack">
   {% if excerpt %}
-    <p class="post-description">{{ excerpt | safe }}</p>
+    <p class="note-description">{{ excerpt | safe }}</p>
   {% endif %}
-  <p class="post-meta">
+  <p class="note-meta">
     {% if date %}
-      Posted by {{ authorName }}
+      Written by {{ authorName }}
       on <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
     {% endif %} (about a {{ helpers.getReadingTime(content) }} minute read).
   </p>
@@ -19,7 +19,7 @@
   <div class="l-stack">
     <article class="h-entry t-page" class="l-container">
       <div class="l-stack l-stack--large">
-        {% include "partials/post-intro.html" %}
+        {% include "partials/note-intro.html" %}
         <div class="l-container l-measure">
           <div class="l-stack" >
             {{ content | safe }}
@@ -32,12 +32,12 @@
         {% if tags %}
           <h2>Tags</h2>
         {% endif %}
-        <div class="l-post-footer">
+        <div class="l-note-footer">
           {% if tags %}
-            <ul class="l-post-tags">
+            <ul class="l-note-tags">
               {% for item in tags %}
                 <li>
-                  <a class="post-tag" href="/tags/{{ item }}">{{ item }}</a>
+                  <a class="note-tag" href="/tags/{{ item }}">{{ item }}</a>
                 </li>
               {% endfor %}
             </ul>

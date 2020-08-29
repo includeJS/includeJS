@@ -1,6 +1,5 @@
 TO DO
 
-- fix feed
 - replace post -> note
 - replace logo
 - list all blogs on /notes?

@@ -2,20 +2,18 @@
 
 {% set introSummary = content | safe %}
 
-{# Post list content #}
-{% set postListHeading = postsHeading %}
-{% set postListItems = collections.notesFeed %}
+{% set noteListHeading = notesHeading %}
+{% set noteListItems = collections.notesFeed %}
 
-{# Posts link #}
-{% if postListItems.length < collections.notes.length %}
-{% set paginationNextText = allPostsText %}
+{% if noteListItems.length < collections.notes.length %}
+{% set paginationNextText = allNotesText %}
 {% set paginationNextUrl = '/notes' %}
 {% endif %}
 
 {% block content %}
 <div class="l-stack l-stack--large">
   {% include "partials/intro.html" %}
-  {% include "partials/post-list-home.html" %}
+  {% include "partials/note-list-home.html" %}
   {% include "partials/pagination.html" %}
 </div>
 {% endblock %}

@@ -1,16 +1,14 @@
 {% extends 'layouts/base.html' %}
 
-{# Intro content #}
 {% set introHeading %}Notes{% endset %}
 
-{# Post list content #}
-{% set postListHeading %}Notes tagged: “{{ tag }}”{% endset %}
-{% set postListItems = collections[tag] %}
+{% set noteListHeading %}Notes tagged: “{{ tag }}”{% endset %}
+{% set noteListItem = collections[tag] %}
 
 {% block content %}
   <div class="l-stack l-stack--large">
     {% include "partials/intro.html" %}
-    {% include "partials/post-list.html" %}
+    {% include "partials/note-list.html" %}
     {% include "partials/pagination.html" %}
   </div>
 {% endblock %}

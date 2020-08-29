@@ -16,15 +16,15 @@ permalink: "/feed.xml"
     <name>{{ site.authorName }}</name>
     <email>{{ site.authorEmail }}</email>
 	</author>
-	{% for post in collections.notes %}
-    {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
+	{% for note in collections.notes %}
+    {% set absolutePostUrl %}{{ site.url }}{{ note.url | url }}{% endset %}
     <entry>
-      <title>{{ post.data.title }}</title>
+      <title>{{ note.data.title }}</title>
       <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.date | rssDate }}</updated>
+      <updated>{{ note.date | rssDate }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html"><![CDATA[
-        {{ post.templateContent | safe }}
+        {{ note.templateContent | safe }}
       ]]></content>
     </entry>
 	{% endfor %}

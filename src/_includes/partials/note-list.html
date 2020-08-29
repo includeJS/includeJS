@@ -1,19 +1,19 @@
-{% set postListHeadingLevel = 'h3' if postListHeading else
+{% set noteListHeadingLevel = 'h3' if noteListHeading else
   'h2' %}
-{% if postListItems.length %}
+{% if noteListItem.length %}
   <section class="l-container l-measure">
     <div class="l-stack">
-      {% if postListHeading %}
-        <h2 class="h4">{{ postListHeading }}</h2>
+      {% if noteListHeading %}
+        <h2 class="h4">{{ noteListHeading }}</h2>
       {% endif %}
-      <ul class="l-post-list" reversed>
-        {% for item in postListItems %}
-          <li class="post-stack-item">
-            <{{postListHeadingLevel}} class="h3">
+      <ul class="l-note-list" reversed>
+        {% for item in noteListItem %}
+          <li class="note-stack-item">
+            <{{noteListHeadingLevel}} class="h3">
               <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
-            </{{postListHeadingLevel}}>
+            </{{noteListHeadingLevel}}>
             <p>
-              <time class="post-stack-date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+              <time class="note-stack-date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
             </p>
             <p>
               {% if item.data.excerpt %}

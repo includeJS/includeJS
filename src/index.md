@@ -1,8 +1,8 @@
 ---
 title: "includeJS - homepage"
 layout: "layouts/home.html"
-postsHeading: Latest notes
-allPostsText: See all notes
+notesHeading: Latest notes
+allNotesText: See all notes
 ---
 
 Click (Generate) to create a new font pairing, (Lock) to lock fonts that you want to keep, and (Edit) to choose a font manually. The text is editable, try replacing it with your company name or other copy.
