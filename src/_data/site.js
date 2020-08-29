@@ -6,15 +6,14 @@ module.exports = {
   theme: {
     primary: {
       background: "white",
-      text: "black",
-      highlight: "#666",
+      text: "#1f2933",
+      highlight: "#da127d",
     },
     secondary: {
-      background: "black",
+      background: "#1f2933",
       text: "white",
-      highlight: "#666",
+      highlight: "#da127d",
     },
   },
   notesPerPage: 4,
-  // criticalCSS: false,
 };

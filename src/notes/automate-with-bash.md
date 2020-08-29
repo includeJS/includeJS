@@ -78,7 +78,7 @@ For a multiline request, you can add `\` to the end, followed by the `Enter` key
 Output the response into a text file.
 
 ## Scripts
-```bash
+```
 echo "Initializing JS project at $(pwd)"
 git init
 npm init -y # create package.json with all the defaults
@@ -93,7 +93,7 @@ A `bash` script for scaffolding a simple JS project. For scripts, you need to `c
 
 Will display all your global environment variables.
 
-```bash
+```
 temp=$(mktemp -d)
 git clone --branch $1 $pwd
 echo "branch $1 cloned to $temp"
@@ -105,7 +105,7 @@ Clone from a local `Git` repository branch to a temporary folder.
 
 Echo the exit status of your last command.
 
-```bash
+```
 if [[ -z $USER ]]; then
     echo "true"
 else
@@ -114,7 +114,7 @@ fi
 ```
 A simple conditional script.
 
-```bash
+```
 check_status() {
     local status = $(curl -ILs https://example.org | head -n 1 | cut -d ' ' -f 2)
     if [[ $status -lt 200 ]] || [[ $status -gt 299 ]]; then

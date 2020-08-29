@@ -18,10 +18,10 @@ Margin collapse happens when two vertical elements have a margin, and one of the
 
 🔨 To fix: Use a single direction margin, e.g.:
 
-```css
-.element:not(:last-child) {
-  margin-bottom: 1rem;
-}
+```
+  .element:not(:last-child) {
+    margin-bottom: 1rem;
+  }
 ```
 
 🤔 If both the parent and the child have a margin, the child's margin will be collapsed.

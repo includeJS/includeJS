@@ -61,7 +61,7 @@ Get the numbers of stars in a GitHub repo.
 
 ## `jq`
 
-```bash
+```
 for dep in $(jq -r '.dependencies | keys | .[]' package.json); do
   if ! grep "required\(.*$dep.*)" Rq --exclude-dir="node_modules" ." then
     echo "You can probably remove $dep"
@@ -90,7 +90,7 @@ Append `standard error` to the same place and in the same mode than `standard ou
 
 This will return the differences between the previous and current commits as a bare list of files.
 
-```bash
+```
 if git diff-tree --name-only --no-commit-id ORIG_HEAD HEAD | grep --quiet 'package.json'; then
  echo "$(date): Running npm install because package.json changed"
  npm install
@@ -107,7 +107,7 @@ If you output to `/dev/null` the output will be discarded. Note that errors will
 
 ## Extracting
 
-```bash
+```
 case "$1" in
   *.tar|*.tgz) tar -xzvf "$1";;
   *.gz) gunzip -k "$1";;
