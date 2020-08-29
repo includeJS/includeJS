@@ -5,6 +5,10 @@
   background: var(--THEME_BACKGROUND, black);
 }
 
+main {
+  height: 100vh;
+}
+
 @media (min-width: 800px) and (min-height: 500px) {
   :root {
     font-size: 1.375rem;

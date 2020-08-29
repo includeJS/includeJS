@@ -36,18 +36,21 @@ $bp-site-head: 600px;
 
 .l-site-name > * {
   flex-shrink: 0;
+
 }
 
 .l-site-name > *:first-child {
-  width: 42px; // Flex doesn't correctly calc the width of SVG viewbox
-  flex-basis: 42px;
+  // width: 42px; // Flex doesn't correctly calc the width of SVG viewbox
+  // flex-basis: 42px;
   margin-right: 0.5rem;
+  margin-left: -3rem;
 }
 
 .l-site-name--footer > *:first-child {
-  width: 32px; // Flex doesn't correctly calc the width of SVG viewbox
-  flex-basis: 32px;
+  // width: 32px; // Flex doesn't correctly calc the width of SVG viewbox
+  // flex-basis: 32px;
   margin-right: 0.5rem;
+  margin-left: 0;
 }
 
 .l-site-title {

@@ -1,8 +1,4 @@
 TO DO
-
-- replace post -> note
-- replace logo
-- list all blogs on /notes?
 - code of conduct
 - contact form?
 - analytics of sorts
@@ -11,6 +7,7 @@ TO DO
 - add favicon
 - add readme
 - homepage intro text
+- add django blog
 
 - add videos
 

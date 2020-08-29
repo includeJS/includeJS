@@ -1,13 +1,13 @@
-{% set noteListHeadingLevel = 'h3' if noteListHeading else
-  'h2' %}
-{% if noteListItem.length %}
+{% set noteListHeadingLevel = 'h3' if noteListHeading else 'h2' %}
+
+{% if noteListItems.length %}
   <section class="l-container l-measure">
     <div class="l-stack">
       {% if noteListHeading %}
         <h2 class="h4">{{ noteListHeading }}</h2>
       {% endif %}
       <ul class="l-note-list" reversed>
-        {% for item in noteListItem %}
+        {% for item in noteListItems %}
           <li class="note-stack-item">
             <{{noteListHeadingLevel}} class="h3">
               <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
