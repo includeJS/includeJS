@@ -54,6 +54,7 @@ module.exports = (config) => {
   config.setUseGitIgnore(false);
   config.setQuietMode(true);
   config.addPassthroughCopy("./src/images/");
+  config.addPassthroughCopy({ "src/static": "/" });
 
   return {
     markdownTemplateEngine: "njk",

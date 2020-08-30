@@ -1,9 +1,6 @@
 TO DO
-- analytics of sorts
 - check lighthouse
 - styling
-- add favicon
-- add readme
 - homepage intro text
 - add django blog
 
