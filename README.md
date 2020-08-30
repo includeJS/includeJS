@@ -1,6 +1,6 @@
 TO DO
 - check lighthouse
-- homepage intro text
+- go through blogs
 - add django blog
 - add videos
 
