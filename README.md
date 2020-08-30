@@ -1,9 +1,7 @@
 TO DO
 - check lighthouse
-- styling
 - homepage intro text
 - add django blog
-
 - add videos
 
 Projects:

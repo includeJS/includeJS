@@ -10,7 +10,7 @@ module.exports = {
       highlight: "#da127d",
     },
     secondary: {
-      background: "#1f2933",
+      background: "#19216c",
       text: "white",
       highlight: "#da127d",
     },

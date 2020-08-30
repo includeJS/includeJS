@@ -5,6 +5,6 @@ notesHeading: Latest notes
 allNotesText: See all notes
 ---
 
-Click (Generate) to create a new font pairing, (Lock) to lock fonts that you want to keep, and (Edit) to choose a font manually. The text is editable, try replacing it with your company name or other copy.
+includeJS aims to bridge the diversity gap in tech. We're starting by concentrating on women in tech. As we get more established, we'll expand our focus to include other groups.
 
-The goal of font pairing is to select fonts that share an overarching theme yet have a pleasing contrast. Which fonts work together is largely a matter of intuition, but we approach this problem with a neural net. See Github for more technical details.
+Our main focus is understanding JavaScript and front-end development, as well as HTML, CSS, static site generators, accessibility, web performance, user experience, web design and more! Our events are hands-on: make sure your always bring your laptop with you! 👩‍💻
