@@ -3,7 +3,7 @@ title: "Code of Conduct"
 layout: "layouts/page.html"
 ---
 
-Our code of conduct applies to all meetups organised and delivered by includeJS. Please make sure you familiarise yourself with it and let us know if you have any questions or concerns. We’re here to ensure we all have a good time and learn together!
+The includeJS code of conduct applies to all meetups, streams and other events organised and delivered by includeJS. Please make sure you familiarise yourself with it and let us know if you have any questions or concerns. We’re here to ensure we all have a good time and learn together!
 
 In short
 includeJS is dedicated to providing a harassment-free meetup and workshop experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We are trans-friendly.

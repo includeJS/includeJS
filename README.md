@@ -1,6 +1,4 @@
 TO DO
-- code of conduct
-- contact form?
 - analytics of sorts
 - check lighthouse
 - styling
