@@ -1,6 +1,6 @@
 TO DO
 
-- check lighthouse and web vitals: https://github.com/stefanjudis/web-vitals-element
+- add meta description
 - go through blogs
 - add django blog
 - add videos

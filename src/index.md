@@ -6,6 +6,4 @@ allNotesText: See all notes
 metaDesc: includeJS homepage
 ---
 
-includeJS aims to bridge the diversity gap in tech. We're starting by concentrating on women in tech. As we get more established, we'll expand our focus to include other groups.
-
-Our main focus is understanding JavaScript and front-end development, as well as HTML, CSS, static site generators, accessibility, web performance, user experience, web design and more! Our events are hands-on: make sure your always bring your laptop with you! 👩‍💻
+includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught web developer. It's the home for my notes and the bazillion other ideas that are perennially labeled with WIP (work-in-progress).
