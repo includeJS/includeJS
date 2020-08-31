@@ -3,8 +3,8 @@
   site.authorName %}
 {% set introSummary %}
 <div class="l-stack">
-  {% if excerpt %}
-    <p class="note-description">{{ excerpt | safe }}</p>
+  {% if description %}
+    <p class="note-description">{{ description | safe }}</p>
   {% endif %}
   <p class="note-meta">
     {% if date %}

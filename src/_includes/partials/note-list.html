@@ -16,8 +16,8 @@
               <time class="note-stack-date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
             </p>
             <p>
-              {% if item.data.excerpt %}
-                {{item.data.excerpt}}
+              {% if item.data.description %}
+                {{item.data.description}}
                 <a href="{{ item.url }}" aria-hidden="true" class="read-more">Read more</a>
               {% endif %}
             </p>

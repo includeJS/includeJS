@@ -3,7 +3,7 @@ path: "/nunjucks"
 date: "2020-06-23"
 title: "So... nunjucks?"
 tags: ["nunjucks", "11ty", "mozilla"]
-excerpt: "Nunjucks was made by Mozilla ❤️"
+description: "Nunjucks was made by Mozilla ❤️"
 link: "https://mozilla.github.io/nunjucks/templating.html"
 ---
 

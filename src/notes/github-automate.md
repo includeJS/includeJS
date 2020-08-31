@@ -4,7 +4,7 @@ path: '/automate-github'
 date: "2020-04-19"
 title: 'Better (Automated) GitHub Workflows'
 tags: ['github', 'terminal', 'productivity', 'automate', 'command line', 'egghead']
-excerpt: 'GitHub Tips & Tricks'
+description: 'GitHub Tips & Tricks'
 link: 'https://egghead.io/playlists/github-tips-tricks-6fc4'
 
 ---

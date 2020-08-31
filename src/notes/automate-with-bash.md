@@ -4,7 +4,7 @@ path: '/automate-with-bash'
 date: "2020-03-31"
 title: 'More Bash Goodness'
 tags: ['productivity', 'bash', 'terminal', 'script', 'egghead']
-excerpt: 'Automate Daily Development Tasks with Bash from Egghead.io'
+description: 'Automate Daily Development Tasks with Bash from Egghead.io'
 link: 'https://egghead.io/courses/automate-daily-development-tasks-with-bash'
 
 ---

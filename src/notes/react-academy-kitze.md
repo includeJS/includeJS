@@ -3,7 +3,7 @@ path: "/react-academy-kitze"
 date: "2020-03-02"
 title: "React Academy by Kitze"
 tags: ["courses", "workshop", "reactJS"]
-excerpt: "My notes from the React Academy (Advanced ReactJS course) by Kitze"
+description: "My notes from the React Academy (Advanced ReactJS course) by Kitze"
 link: "https://www.reactacademy.io/"
 ---
 

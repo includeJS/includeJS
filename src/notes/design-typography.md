@@ -3,7 +3,7 @@ path: "/design-typography"
 date: "2020-04-16"
 title: "Refactoring UI - My Notes on Typography"
 tags: ["design", "UI"]
-excerpt: "From the course: Refactoring UI by Adam Wathan and Steve Schoger"
+description: "From the course: Refactoring UI by Adam Wathan and Steve Schoger"
 link: "https://refactoringui.com/"
 ---
 

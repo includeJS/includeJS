@@ -4,7 +4,7 @@ path: '/uses'
 date: "2020-04-21"
 title: 'My /uses Page'
 tags: ['github', 'terminal', 'productivity', 'automate', 'command line', 'egghead']
-excerpt: 'A list of /uses pages detailing developer setups, gear, software and configs.'
+description: 'A list of /uses pages detailing developer setups, gear, software and configs.'
 link: 'https://uses.tech/'
 
 ---

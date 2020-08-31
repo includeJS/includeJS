@@ -3,7 +3,7 @@ path: "/pragmatic-fluent-vscode"
 date: "2020-06-14"
 title: "VSCode Keyboard Shorcuts & Achieving Editor Fluency"
 tags: ["productivity", "vscode", "pragmatic", "keyboard shortcuts"]
-excerpt: "From The Pragmatic Programmer, 20th Anniversary Edition"
+description: "From The Pragmatic Programmer, 20th Anniversary Edition"
 link: "https://pragprog.com/titles/tpp20/"
 ---
 

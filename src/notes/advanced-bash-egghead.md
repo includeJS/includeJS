@@ -4,7 +4,7 @@ date: "2020-04-18"
 title: "More Bash Bashing"
 tags:
   ["bash", "terminal", "productivity", "shortcuts", "command line", "egghead"]
-excerpt: "Advanced Bash Automation for Web Developers"
+description: "Advanced Bash Automation for Web Developers"
 link: "https://egghead.io/courses/advanced-bash-automation-for-web-developers"
 ---
 

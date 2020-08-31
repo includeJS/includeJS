@@ -6,7 +6,7 @@ tags:
   - missing-semester
   - terminal
   - shell
-excerpt: "(Bourne Again SHell) is a common shell that comes preinstalled on many OS."
+description: "(Bourne Again SHell) is a common shell that comes preinstalled on many OS."
 ---
 
 - 📹 [YouTube Link](https://www.youtube.com/watch?v=Z56Jmr9Z34Q&list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)

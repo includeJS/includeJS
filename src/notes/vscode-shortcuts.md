@@ -4,7 +4,7 @@ path: '/vscode-shortcuts'
 date: "2020-04-03"
 title: 'VScode Keyboard Shortcuts'
 tags: ['productivity', 'shortcuts', 'vscode']
-excerpt: 'Link to the VSCode installation page.'
+description: 'Link to the VSCode installation page.'
 link: 'https://code.visualstudio.com/'
 
 ---

@@ -2,7 +2,7 @@
 date: "2020-02-29"
 title: "Fix Common Git Mistakes"
 tags: ["courses", "egghead", "git"]
-excerpt: "Stuff I learned from the Egghead course Fix Common Git Mistakes"
+description: "Stuff I learned from the Egghead course Fix Common Git Mistakes"
 link: "https://egghead.io/courses/fix-common-git-mistakes"
 ---
 

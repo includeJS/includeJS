@@ -3,7 +3,7 @@ path: "/css-spacing"
 date: "2020-04-28"
 title: "CSS and Spacing"
 tags: ["css", "design", "UI"]
-excerpt: "From the article: Spacing in CSS"
+description: "From the article: Spacing in CSS"
 link: "https://ishadeed.com/article/spacing-in-css/"
 ---
 

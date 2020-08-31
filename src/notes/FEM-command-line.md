@@ -4,7 +4,7 @@ path: '/FEM-command-line'
 date: "2020-03-27"
 title: "Introduction to Bash, VIM & Regex"
 tags: ['courses', 'terminal', 'command line', 'fem']
-excerpt: 'Frontendmasters course on command line by James Halliday.'
+description: 'Frontendmasters course on command line by James Halliday.'
 link: 'https://frontendmasters.com/courses/bash-vim-regex/'
 
 ---
