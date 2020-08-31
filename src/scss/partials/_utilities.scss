@@ -31,7 +31,9 @@
 }
 
 .theme-bg {
-  background: var(--THEME_BACKGROUND, white);
+  // background: var(--THEME_BACKGROUND, white);
+  background: linear-gradient(90deg, $cyan 0%, $pink 100%);
+
 }
 .theme-color {
   color: var(--THEME_COLOR, black);
