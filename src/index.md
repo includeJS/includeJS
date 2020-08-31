@@ -3,6 +3,7 @@ title: "includeJS - homepage"
 layout: "layouts/home.html"
 notesHeading: Latest notes
 allNotesText: See all notes
+metaDesc: includeJS homepage
 ---
 
 includeJS aims to bridge the diversity gap in tech. We're starting by concentrating on women in tech. As we get more established, we'll expand our focus to include other groups.
