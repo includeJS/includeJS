@@ -5,6 +5,12 @@ pagination:
   data: collections
   size: 1
   alias: tag
-  filter: ["all", "nav", "note", "notes", "tagList", "notesFeed", "shell"]
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+    - postFeed
 permalink: /tags/{{ tag }}/
 ---
