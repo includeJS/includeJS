@@ -11,8 +11,8 @@
   {% set pageTitle = metaTitle %}
 {% endif %}
 
-{% if not metaDesc %}
-  {% set metaDesc = summary %}
+{% if not metaDescription %}
+  {% set metaDescription = summary %}
 {% endif %}
 
 
@@ -32,10 +32,10 @@
   <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}
 
-{% if metaDesc %}
-  <meta name="description" content="{{ metaDesc }}" />
-  <meta name="twitter:description" content="{{ metaDesc }}" />
-  <meta property="og:description" content="{{ metaDesc }}" />
+{% if metaDescription %}
+  <meta name="description" content="{{ metaDescription }}" />
+  <meta name="twitter:description" content="{{ metaDescription }}" />
+  <meta property="og:description" content="{{ metaDescription }}" />
 {% endif %}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
