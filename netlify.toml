@@ -1,3 +1,9 @@
 [build]
   command = "yarn run production"
   publish = "dist"
+
+[[redirects]]
+    from = "/uses"
+    to = "/notes/my-uses-page/"
+    status = 301
+    force = false
