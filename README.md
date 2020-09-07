@@ -1,10 +1,10 @@
 TO DO
 
-- add meta description
 - go through blogs
 - add django blog
 - add videos
 - add social image share
+- add indieweb card https://kevq.uk/how-to-create-an-indieweb-profile/
 
 Projects:
 
