@@ -1,5 +1,5 @@
 ---
-title: "includeJS - homepage"
+title: "Welcome to includeJS"
 layout: "layouts/home.html"
 notesHeading: Latest notes
 allNotesText: See all notes
