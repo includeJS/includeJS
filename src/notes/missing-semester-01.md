@@ -1,11 +1,12 @@
 ---
-path: "/missing-semster-01"
+path: "/missing-semester-01"
 date: "2020-08-30"
 title: "Missing Semester 01 - The Shell"
 tags:
   - missing-semester
   - terminal
   - shell
+  - bash
 description: "(Bourne Again SHell) is a common shell that comes preinstalled on many OS."
 ---
 
