@@ -1,6 +1,5 @@
 TO DO
 
-- go through blogs
 - add django blog
 - add videos
 - add social image share
@@ -18,3 +17,20 @@ Series:
 
 - advanced beginner
 - missing semester
+
+Tags:
+javascript
+react
+productivity
+css
+git
+vscode
+ux
+bash
+missing-semester
+mongodb
+python
+django
+database
+devtools
+performance

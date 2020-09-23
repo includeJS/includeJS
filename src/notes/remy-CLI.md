@@ -2,7 +2,7 @@
 path: "/remy-CLI"
 date: "2020-03-21"
 title: "Notes from Command Line Course by Remy Sharp"
-tags: ["courses", "terminal", "command line", "zsh", "brew"]
+tags: ["bash", "productivity"]
 description: "Learn command line pipes, alias, zsh, string processing and more."
 link: "https://remysharp.com/2018/08/23/cli-improved"
 ---

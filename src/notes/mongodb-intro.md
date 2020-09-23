@@ -2,7 +2,7 @@
 path: "/mongodb-intro"
 date: "2020-03-11"
 title: "My notes from the MongoDB intro on FEM"
-tags: ["fem", "courses", "database", "mongodb"]
+tags: ["FEM", "database", "mongodb"]
 description: "My notes on Introduction to MongoDb available on FrontEndMasters."
 link: "https://frontendmasters.com/courses/mongodb/"
 ---

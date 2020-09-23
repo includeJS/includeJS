@@ -4,8 +4,6 @@ date: "2020-09-22"
 title: "Missing Semester 03 - Editors (Vim)"
 tags:
   - missing-semester
-  - terminal
-  - vim
 description: "Vim's interface is a programming language 🤯."
 ---
 

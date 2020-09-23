@@ -3,7 +3,7 @@ path: "/advanced-bash"
 date: "2020-04-18"
 title: "More Bash Bashing"
 tags:
-  ["bash", "terminal", "productivity", "shortcuts", "command line", "egghead"]
+  ["bash", "productivity", "egghead"]
 description: "Advanced Bash Automation for Web Developers"
 link: "https://egghead.io/courses/advanced-bash-automation-for-web-developers"
 ---

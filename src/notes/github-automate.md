@@ -1,12 +1,10 @@
 ---
-
-path: '/automate-github'
+path: "/automate-github"
 date: "2020-04-19"
-title: 'Better (Automated) GitHub Workflows'
-tags: ['github', 'terminal', 'productivity', 'automate', 'command line', 'egghead']
-description: 'GitHub Tips & Tricks'
-link: 'https://egghead.io/playlists/github-tips-tricks-6fc4'
-
+title: "Better (Automated) GitHub Workflows"
+tags: ["git", "productivity", "bash", "egghead"]
+description: "GitHub Tips & Tricks"
+link: "https://egghead.io/playlists/github-tips-tricks-6fc4"
 ---
 
 ## Creating a GitHub PR Template
@@ -17,9 +15,9 @@ Create this file and directory at the root of your project. Once you've written 
 
 ## Creating a GitHub Issue Template
 
- `.github/ISSUE_TEMPLATE/feature_request.md`
+`.github/ISSUE_TEMPLATE/feature_request.md`
 
- This is where your template will live. Besides the markdown content, the template requires `frontmatter`.
+This is where your template will live. Besides the markdown content, the template requires `frontmatter`.
 
 ```
 ---
@@ -35,7 +33,7 @@ labels: enhancement (default template labels)
 
 Create this file at the root of your project.
 
-* @ghuser1 @ghuser2
+- @ghuser1 @ghuser2
 
 Add GitHub users (`*` means they will be global owners - a.k.a. the default owners for everything in the repo).
 
@@ -49,8 +47,8 @@ Go to GitHub, Settings, scroll down to Merge button and select **"Automatically 
 
 ## Open a GitHub Draft Pull Request
 
-* Proceed as if you were doing a normal PR, at the final step, instead of clicking "Create pull request", click on the dropdown arrow to the right and choose **"Create draft pull request"**.
-* This will create a PR with a "draft" label. Draft PR's can't be merged. To convert it into a standard PR, click **"Ready for review"**.
+- Proceed as if you were doing a normal PR, at the final step, instead of clicking "Create pull request", click on the dropdown arrow to the right and choose **"Create draft pull request"**.
+- This will create a PR with a "draft" label. Draft PR's can't be merged. To convert it into a standard PR, click **"Ready for review"**.
 
 ## Installing GitHub CLI
 

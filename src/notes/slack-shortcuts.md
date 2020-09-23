@@ -1,14 +1,11 @@
 ---
-
-path: '/slack-shortcuts'
+path: "/slack-shortcuts"
 date: "2020-04-07"
-title: 'Most Useful Slack Shortcuts'
-tags: ['productivity', 'shortcuts', 'slack']
-description: 'More Slack Shortcuts Here'
-link: 'https://usethekeyboard.com/slack/'
-
+title: "Most Useful Slack Shortcuts"
+tags: ["productivity"]
+description: "More Slack Shortcuts Here"
+link: "https://usethekeyboard.com/slack/"
 ---
-
 
 I work remotely, and most of our communication happens on Slack (we use Google Hangouts and [Whereby](https://whereby.com/user) for **video** communication and [Notion](https://www.notion.so/) for **documentation** and issue tracking).
 
@@ -52,7 +49,7 @@ To switch between different slack groups 💪.
 
 - **`cmd + k`**
 
-Quick switcher (sort of like command palette in  VSCode).
+Quick switcher (sort of like command palette in VSCode).
 
 - **`cmd + /`**
 

@@ -2,7 +2,7 @@
 path: "/zsh-alias"
 date: "2020-04-09"
 title: "My zsh Aliases"
-tags: ["productivity", "bash", "ohmyzsh", "config", "dotfiles"]
+tags: ["productivity", "bash"]
 description: "I use ohmyzsh for my zsh configuration."
 link: "https://github.com/ohmyzsh/ohmyzsh"
 ---

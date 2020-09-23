@@ -2,7 +2,7 @@
 path: "/perf"
 date: "2020-06-26"
 title: "Performance Optimization Tips and Tricks"
-tags: ["nunjucks", "11ty", "mozilla"]
+tags: ["performance", "devtools"]
 description: "From a Twitter thread by Ivan Akulov"
 link: "https://twitter.com/iamakulov/status/1275771832386441216"
 ---

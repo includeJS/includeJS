@@ -2,7 +2,7 @@
 path: "/yarn-2"
 date: "2020-03-03"
 title: "Yarn2 - things to know"
-tags: ["terminal", "yarn", "egghead"]
+tags: ["bash", "egghead"]
 description: "What's new in Yarn - a short course on egghead.io"
 link: "https://egghead.io/lessons/javascript-yarn-a-javascript-package-manager"
 ---

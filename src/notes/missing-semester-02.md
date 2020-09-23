@@ -4,8 +4,6 @@ date: "2020-09-20"
 title: "Missing Semester 02 - Shell Tools and Scripting"
 tags:
   - missing-semester
-  - terminal
-  - shell
   - bash
 description: "More on Shell, scripting, variables, functions, arguments and, most importantly, the tools!"
 ---

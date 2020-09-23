@@ -1,15 +1,14 @@
 ---
-
-path: '/FEM-command-line'
+path: "/FEM-command-line"
 date: "2020-03-27"
 title: "Introduction to Bash, VIM & Regex"
-tags: ['courses', 'terminal', 'command line', 'fem']
-description: 'Frontendmasters course on command line by James Halliday.'
-link: 'https://frontendmasters.com/courses/bash-vim-regex/'
-
+tags: ["bash", "productivity", "FEM"]
+description: "Frontendmasters course on command line by James Halliday."
+link: "https://frontendmasters.com/courses/bash-vim-regex/"
 ---
 
 ## Navigation
+
 `bash` is a `unix` (an operating system that evolved into Linux) shell. A shell is a computer program that is used to launch other computer programs ( via a text interface). `bash` comes from 'bourne again shell'.
 
 - **`ls -1`**
@@ -66,7 +65,7 @@ Shows previous months, current month, next month.
 
 Today's date in year-month-date format.
 
-**`echo 'date'`** (with backticks)  is the same as **`echo $(date)`**
+**`echo 'date'`** (with backticks) is the same as **`echo $(date)`**
 
 If you run `curl -s` the -s flag will get rid of the progress bar. 👍
 
@@ -80,7 +79,7 @@ You need to put that on the first line of your bash scripts.
 
 You can add a `.sh` extension to your scripts, but not needed.
 
-- **`echo date + '%F %T'` $1 >> `date +%F`.log**
+- **`echo date + '%F %T'` \$1 >> `date +%F`.log**
 
 Append a message to a file with today's date (a logger of sorts). `$1` is the variable.
 
@@ -103,6 +102,7 @@ Where your scripts should live.
 Copying our script to the scripts folder. From now on, we can execute it from anywhere by typing `loggy`.
 
 ## Exit Codes
+
 - **`echo $?`**
 
 Read the exit code of the program you've just executed (0 means no error, non-zero fo unsuccessful).
@@ -132,6 +132,7 @@ Kill all processes which match process name.
 ## Regex
 
 regex in `JavaScript`:
+
 - `str.split(re)`
 - `str.match(re)`
 - `str.replace(re)`
@@ -139,12 +140,14 @@ regex in `JavaScript`:
 - `re.exec(str)`
 
 flags:
+
 - `i` case insensitive
 - `g` match all occurrences (global)
 - `m` treat a string as multiple lines
 - `s` treat a string as a single line
 
 metacharacters:
+
 - `.` matches any character
 - `?` zero or one time
 - `*` zero or more times
@@ -165,29 +168,29 @@ metacharacters:
 
 ## Sed
 
- - **`sed -E` and `grep -E`**
+- **`sed -E` and `grep -E`**
 
- to escape metacharacters
+to escape metacharacters
 
- - **`sed -E 's/[0-9]+//'g`**
+- **`sed -E 's/[0-9]+//'g`**
 
- remove all the numbers
+remove all the numbers
 
- - **`'cool "beans" zzz'.replace(/"[^"]+"/, 'XXX')`**
+- **`'cool "beans" zzz'.replace(/"[^"]+"/, 'XXX')`**
 
- Replace everything between double quotation marks with XXX.
+Replace everything between double quotation marks with XXX.
 
- - **`sed -E 's/(\w+) \1/\1/g'`**
+- **`sed -E 's/(\w+) \1/\1/g'`**
 
- Remove duplicates (only if they are next to each other).
+Remove duplicates (only if they are next to each other).
 
- - **`sed 's/cool/k00l/g' -i file.txt`**
+- **`sed 's/cool/k00l/g' -i file.txt`**
 
- Replace cool with k00l in the file specified.
+Replace cool with k00l in the file specified.
 
- ## Vim
+## Vim
 
- navigation (also used in `less`)
+navigation (also used in `less`)
 
 - `k` upwards
 - `j` downwards

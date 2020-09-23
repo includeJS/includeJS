@@ -1,14 +1,11 @@
 ---
-
-path: '/uses'
+path: "/uses"
 date: "2020-04-21"
-title: 'My /uses Page'
-tags: ['github', 'terminal', 'productivity', 'automate', 'command line', 'egghead']
-description: 'A list of /uses pages detailing developer setups, gear, software and configs.'
-link: 'https://uses.tech/'
-
+title: "My /uses Page"
+tags: ["bash", "productivity", "vscode"]
+description: "A list of /uses pages detailing developer setups, gear, software and configs."
+link: "https://uses.tech/"
 ---
-
 
 ## dotfiles 😎
 
@@ -16,10 +13,11 @@ link: 'https://uses.tech/'
 - [zsh alias](https://gist.github.com/ac74baf5b8cb1fd66edb2c0218c508e1) (links to a gist)
 
 ## favorite homebrews (the less obvious-ones) 🍺
+
 - [autojumop](https://formulae.brew.sh/formula/autojump) (for quick navigation)
 
 - [bat](https://formulae.brew.sh/formula/bat#default)
-(`cat` with syntax highlighting)
+  (`cat` with syntax highlighting)
 
 - [htop](https://formulae.brew.sh/formula/htop#default) (for process management)
 
@@ -40,7 +38,6 @@ link: 'https://uses.tech/'
 - [nodemon](https://www.npmjs.com/package/nodemon) (automatically restarts a `node` application on change)
 
 - [tldr](https://www.npmjs.com/package/tldr) (for simpler `man` pages)
-
 
 ## misc 💻
 

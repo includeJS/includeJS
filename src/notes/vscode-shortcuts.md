@@ -1,12 +1,10 @@
 ---
-
-path: '/vscode-shortcuts'
+path: "/vscode-shortcuts"
 date: "2020-04-03"
-title: 'VScode Keyboard Shortcuts'
-tags: ['productivity', 'shortcuts', 'vscode']
-description: 'Link to the VSCode installation page.'
-link: 'https://code.visualstudio.com/'
-
+title: "VScode Keyboard Shortcuts"
+tags: ["productivity", "vscode"]
+description: "Link to the VSCode installation page."
+link: "https://code.visualstudio.com/"
 ---
 
 ## The Ever-expanding List of Frequently Used Keyboard Shortcuts

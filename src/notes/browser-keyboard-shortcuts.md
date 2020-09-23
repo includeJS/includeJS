@@ -2,7 +2,7 @@
 path: "/browser-shortcuts"
 date: "2020-05-19"
 title: "Chrome/Firefox Keyboard Shortcuts (for developers)"
-tags: ["productivity", "chrome", "firefox", "keyboard shortcuts"]
+tags: ["productivity", "chrome", "firefox"]
 description: "Use The Keyboard (one of the resources I used)"
 link: "https://usethekeyboard.com/"
 ---

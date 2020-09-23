@@ -1,14 +1,11 @@
 ---
-
-path: '/smashing-git'
+path: "/smashing-git"
 date: "2020-04-04"
-title: 'Useful Git Commands'
-tags: ['productivity', 'terminal', 'smashing', 'git', 'config']
-description: 'How To Make Life Easier When Using Git'
-link: 'https://www.smashingmagazine.com/make-life-easier-when-using-git/'
-
+title: "Useful Git Commands"
+tags: ["productivity", "git"]
+description: "How To Make Life Easier When Using Git"
+link: "https://www.smashingmagazine.com/make-life-easier-when-using-git/"
 ---
-
 
 I wrote about useful `git` commands previously [here](https://includejs.dev/git-mistakes) and [here](https://includejs.dev/analyze-git-logs).
 
@@ -37,7 +34,6 @@ To see the history of all of your `git` activity
 - **`git log -- missing_file.txt`**
 
 Find files (even ones that were deleted).
-
 
 - **`git shortlog -sn --all --no-merges`**
 

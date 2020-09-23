@@ -3,7 +3,7 @@
 path: '/analyze-git-logs'
 date: "2020-03-01"
 title: 'Analyze Git Logs with the Command Line'
-tags: ['courses', 'egghead', 'git']
+tags: ['bash', 'egghead', 'git']
 description: 'Stuff I learned from the Egghead course Analyze Git Logs with the Command Line'
 link: 'https://egghead.io/lessons/grep-analyze-git-logs-with-the-command-line'
 
