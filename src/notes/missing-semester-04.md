@@ -4,6 +4,7 @@ date: "2020-09-28"
 title: "Missing Semester 04 - Data Wrangling"
 tags:
   - missing-semester
+  - bash
 description: "Data wrangling is taking data in one format and changing it into a different format 💡."
 ---
 
