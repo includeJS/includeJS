@@ -1,3 +1,9 @@
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "dist"
+
 [build]
   command = "yarn run production"
   publish = "dist"
