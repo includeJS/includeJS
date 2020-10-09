@@ -17,7 +17,7 @@ r = reverse results
 
 - **`cd -`**
 
-Go to the last directory.
+Go to the last directory - great for jumping between two directories.
 
 - **`which [application name]`**
 
@@ -37,13 +37,17 @@ Find all markdown files.
 
 And count how many lines.
 
-- **`find . | grep .md | xargs wc -w`**
+- **`find . | grep .md | xargs cat | wc -w`**
 
 How many words in each markdown file.
 
 - **`find [directory] -mtime -1 -ls`**
 
 Find all files modified in the last 24 hours.
+
+- **`find [directory] -mtime -1 -ls | egrep .js$ | awk '{ print $1 }'`**
+
+Find above, but only files ending in `.js` and print out the first column.
 
 ## Grep
 
@@ -102,13 +106,13 @@ Show all running processes.
 
 Forced shutdown.
 
-- **`df -kh`**
+- **`df -h`**
 
 Disk space.
 
 - **`du -hs`**
 
-Disk usage for a particular directory.
+Disk usage for a particular directory (human readable, summary number).
 
 - **`top /htop`**
 
@@ -137,6 +141,14 @@ Will save that page to your harddrive.
 - **`wget -r -l4 -spider -D [url]`**
 
 Will recursively save all the pages (spider), 4 links deep, inside a specific domain.
+
+- **`wget ‐‐level=1 ‐‐recursive ‐‐no-parent ‐‐accept mp3,MP3 http://example.com/mp3/`**
+
+Download all the MP3 files from a sub-directory
+
+- **`wget ‐‐mirror ‐‐domains=abc.com,files.abc.com,docs.abc.com ‐‐accept=pdf http://abc.com/`**
+
+Download the PDF documents from a website through recursion but stay within specific domains.
 
 - **`curl [url] | scrape p`**
 
