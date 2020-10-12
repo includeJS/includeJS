@@ -42,6 +42,8 @@ type commit = struct {
 
 ## Objects and content-addressing
 
+🤔 What do we mean by content-addressable? It means that at the core of Git is a simple key-value data store. This means you can insert any kind of content into a Git repository, for which Git will hand you back a unique key you can use later to retrieve that content. [More on git objects from Git Book](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
+
 - An **object** is a blob, tree, or commit (see above):
 
 `type object = blob | tree | commit`
@@ -65,9 +67,12 @@ A hash function is a function that takes in a big piece of data and turns it int
 
 ## References
 
+References are pointers to the commits. "HEAD" is a reference to where we currently are. 
+
 ```
 references = map<string, string>
 
+// references are mutable
 def update_reference(name, id):
     references[name] = id
 
@@ -93,7 +98,7 @@ If you `ls .git` in a new git repository:
 
 - `git cat-file -p [commit sha]`
 
-Git's internal command to print out the contents of the commit.
+Git's internal command to print out the contents of the commit (used to inspect objects stored in Git).
 
 - `git commit -a`
 
