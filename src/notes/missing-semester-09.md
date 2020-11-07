@@ -1,5 +1,5 @@
 ---
-path: "/missing-semester-08"
+path: "/missing-semester-09"
 date: "2020-10-31"
 title: "Missing Semester 09 - Security and Cryptography"
 tags:
