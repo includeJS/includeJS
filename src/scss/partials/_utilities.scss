@@ -30,11 +30,6 @@
   text-decoration: underline;
 }
 
-.theme-bg {
-  // background: var(--THEME_BACKGROUND, white);
-  background: linear-gradient(90deg, $violet 0%, $pink 100%);
-
-}
 .theme-color {
   color: var(--THEME_COLOR, black);
 }
