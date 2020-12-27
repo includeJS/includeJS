@@ -9,8 +9,7 @@ tags:
 description: "Q and A session (brielfy) covering a wide range of topics 🤔"
 ---
 
-- 📹 [YouTube Link](https://www.youtube.com/watch?v=Wz50FvGG6xU&feature=emb_logo)
-
+- 📹 [YouTube Link](https://www.youtube.com/watch?v=Wz50FvGG6xU)
 - ✏️ [Official Notes](https://missing.csail.mit.edu/2020/qa/)
 
 ## What are some of the tools you’d prioritize learning first?

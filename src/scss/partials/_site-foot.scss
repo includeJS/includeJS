@@ -1,12 +1,14 @@
 .l-site-footer {
   margin-top: 4rem;
   padding: 2rem 0 3rem 0;
+  color: $violet;
 }
 
 .l-site-footer-split {
   display: flex;
   justify-content: space-between;
   padding: 2rem 0 3rem 0;
+  color: $dark_grey;
 }
 
 .l-site-footer-split > * {
@@ -20,5 +22,6 @@
 
 .powered-by {
   text-align: center;
+  color: $dark_grey;
   font-size: $SCALE--1;
 }
