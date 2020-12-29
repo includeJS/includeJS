@@ -8,8 +8,6 @@ tags:
 description: "On Create React App, Gatsby and Next"
 ---
 
-# Project starters
-
 ## Create React App
 
 🟢 **Pros:**
