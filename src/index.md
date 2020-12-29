@@ -6,6 +6,4 @@ allNotesText: See all notes
 metaDesc: includeJS homepage
 ---
 
-includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught web developer.
-
-It's the home for my notes and the bazillion other ideas that are perennially labeled with WIP (work-in-progress).
+includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught web developer. It's the home for my notes and the bazillion other ideas that are perennially labeled with WIP (work-in-progress).
