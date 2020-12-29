@@ -11,8 +11,8 @@ description: "On useEffect, useLayoutEffect, useState, useContext, useReducer, u
 ## Rules of Hooks
 
 - Hooks start with "use".
-- Only Call Hooks at the Top Level: Don't call Hooks inside loops, conditions, or nested functions.
-- Only Call Hooks from React Functions: Don't call Hooks from regular JavaScript functions
+- Only call hooks at the top level: don't call hooks inside loops, conditions, or nested functions.
+- Only call hooks from React functions: don't call hooks from regular JavaScript functions
 
 ### useEffect
 
