@@ -43,7 +43,7 @@ description: "On Create React App, Gatsby and Next"
 - a shortcut to making server-side rendered (SSR) - supported out of the box - applications in React
 - has routing and styling defaults (but you can choose your own)
 - the option to change the babel config (`.babelrc`)
-- get started with the CLI (`npx create-next-app`) `example/hello-world`
+- get started with the CLI (`npx create-next-app`)
 - amazing docs with lessons to follow
 - production-grade
 - customization options
