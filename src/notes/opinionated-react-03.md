@@ -1,7 +1,7 @@
 ---
 path: "/opinionated-react-03"
 date: "2020-11-23"
-title: "Opinionated React 03 - ReactJS project starters"
+title: "The Opinionated Guide to React 03 - ReactJS project starters"
 tags:
   - opinionated-react
   - reactjs

@@ -1,7 +1,7 @@
 ---
 path: "/opinionated-react-06"
 date: "2020-12-14"
-title: "Opinionated React 06 - React Hooks"
+title: "The Opinionated Guide to Reactt 06 - React Hooks"
 tags:
   - opinionated-react
   - reactjs

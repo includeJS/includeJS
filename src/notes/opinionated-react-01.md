@@ -1,7 +1,7 @@
 ---
 path: "/opinionated-react-01"
 date: "2020-11-09"
-title: "Opinionated React 01 - Folder structure, file naming, eslint, typescript"
+title: "The Opinionated Guide to React 01 - Folder structure, file naming, eslint, typescript"
 tags:
   - opinionated-react
   - reactjs

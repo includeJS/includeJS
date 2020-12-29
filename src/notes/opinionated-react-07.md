@@ -1,7 +1,7 @@
 ---
 path: "/opinionated-react-07"
 date: "2020-12-21"
-title: "Opinionated React 07 - Performance and Deployment"
+title: "The Opinionated Guide to React 07 - Performance and Deployment"
 tags:
   - opinionated-react
   - reactjs

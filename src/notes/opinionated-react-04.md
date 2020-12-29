@@ -1,7 +1,7 @@
 ---
 path: "/opinionated-react-04"
 date: "2020-11-30"
-title: "Opinionated React 04 - ReactJS packages Part 1"
+title: "The Opinionated Guide to React 04 - ReactJS packages Part 1"
 tags:
   - opinionated-react
   - reactjs

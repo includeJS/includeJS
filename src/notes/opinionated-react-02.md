@@ -1,7 +1,7 @@
 ---
 path: "/opinionated-react-02"
 date: "2020-11-16"
-title: "Opinionated React 02 - On state management"
+title: "The Opinionated Guide to React 02 - On state management"
 tags:
   - opinionated-react
   - reactjs
