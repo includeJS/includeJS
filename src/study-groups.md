@@ -8,7 +8,7 @@ I organize weekly study groups that center around learning JavaScript and comput
 
 They are intended for junior and mid-level developers who are committed to learning and sharing what they've learned with others.
 
-We meet weekly on Zoom (Europe evening timezone). We organize ourselves through Discord and follow the includeJS Code of Conduct. We particularly welcome self-taught developer and career changes from a diverse background.
+We meet weekly on Zoom (Europe evening timezone). We organize ourselves through Discord and follow the includeJS Code of Conduct. We particularly welcome self-taught developers and career changers from diverse backgrounds.
 
 **If you're interested in joining one of our groups in the future, send me a Twitter DM 👍.**
 
