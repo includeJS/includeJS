@@ -14,7 +14,7 @@ Emoji legend
 - 📕 need to be learned
 - 🤷‍♀️ not sure if useful
 
-## 1. When editing text, move and make selection by:
+## 1. When editing text, move and make selection by
 
 ### Character
 
@@ -116,15 +116,15 @@ Navigate by symbols.
 
 - ✅ `cmd + [` or `cd + ]`
 
-## 4. Comment and uncomment blocks of code with a single command.
+## 4. Comment and uncomment blocks of code with a single command
 
 - ✅ `cmd + /`
 
-## 5. Undo and redo changes.
+## 5. Undo and redo changes
 
 - ✅ `cmd + z` and `cmd + shift + z`
 
-## 6. Split the editor window into multiple panels, and navigate between them.
+## 6. Split the editor window into multiple panels, and navigate between them
 
 - 🥊 `cmd + \`
 
@@ -134,17 +134,17 @@ Split editor.
 
 Focus a specific editor window.
 
-## 7. Navigate to a particular line number.
+## 7. Navigate to a particular line number
 
 - 📕 `ctrl + g`
 
-## 8. Sort selected lines.
+## 8. Sort selected lines
 
 - 🤷‍♀️ `cmd + shift + p`
 
 (or `F1`) to access the command palette, then run sort lines.
 
-## 9. Search for both strings and regular expressions, and repeat previous searches.
+## 9. Search for both strings and regular expressions, and repeat previous searches
 
 - ✅ `cmd +f`
 
@@ -158,7 +158,7 @@ Search in the current workspace.
 
 Toggle replace mode.
 
-## 10. Temporarily create multiple cursors based on a selection or on a pattern match, and edit the text at each in parallel.
+## 10. Temporarily create multiple cursors based on a selection or on a pattern match, and edit the text at each in parallel
 
 - ✅ `cmd + click`
 
@@ -172,7 +172,7 @@ Select the next match.
 
 De-select previous match.
 
-## 11. Display compilation errors in the current project.
+## 11. Display compilation errors in the current project
 
 - ✅ `cmd + .`
 
@@ -182,13 +182,13 @@ To open the quick-fix context menu.
 
 Go to the next error warning.
 
-## 12. Run the current project's test.
+## 12. Run the current project's test
 
 - 🤷‍♀️ `cmd + shift + p`
 
 Open the command palette, then run all tests?
 
-## Bonus (added by me):
+## Bonus (added by me)
 
 - 📕 `cmd + k + z`
 

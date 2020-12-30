@@ -33,7 +33,7 @@ description: "On useEffect, useLayoutEffect, useState, useContext, useReducer, u
 
 This is kosher:
 
-```
+```js
 useEffect(() => {
   getCharacter(openId).then((rsp) => setInfo(rsp));
 }, [openId]);
@@ -41,7 +41,7 @@ useEffect(() => {
 
 And to cleanup an `async` function (cancel a promise):
 
-```
+```js
 function BananaComponent() {
   const [bananas, setBananas] = useState([])
   useEffect(() => {
@@ -81,7 +81,7 @@ Meaning:
 
 - This will only increase the value by one:
 
-```
+```js
 const increment = () => {
   setCount(counter + 1);
   setCount(counter + 1);
@@ -93,7 +93,7 @@ const increment = () => {
 
 - When dealing with updating the state depending on its current value, we should access it like so (this will increment it by three):
 
-```
+```js
 setCounter((counter) => counter + 1);
 setCounter((counter) => counter + 1);
 setCounter((counter) => counter + 1);
@@ -111,7 +111,7 @@ setCounter((counter) => counter + 1);
   1. The reducer function - This is where you will update the state (with switches depending on the action you send)
   2. the initial state
 
-```
+```js
 function reducer(state, action) {
   switch (action.type) {
     case "removeVisited":
@@ -120,11 +120,12 @@ function reducer(state, action) {
       return state;
     default:
       return state;
-} }
+  }
+}
 
 const [state, dispatch] = useReducer(reducer, {
-    airports: airportList,
-  });
+  airports: airportList,
+});
 
 dispatch({ type: "removeVisited", value: airport.id });
 ```
@@ -142,9 +143,9 @@ dispatch({ type: "removeVisited", value: airport.id });
 - `useCallback` returns its function when the dependencies change, while `useMemo` calls its function and returns the result.
 - The issue is that in JavaScript, no two functions are equal to each other, so our change gets triggered twice because the first time we call it, the function is re- created and triggering the effect to run again.
 
-```
+```js
 function foo() {
-  return 'bar';
+  return "bar";
 }
 const memoizedCallback = useCallback(foo, []);
 const memoizedResult = useMemo(foo, []);

@@ -19,22 +19,22 @@ description: "Metaprogramming is processes that surround the work that you do wh
 
 ### make
 
-The **make** utility requires a `Makefile` which defines a set of tasks to be executed. 
+The **make** utility requires a `Makefile` which defines a set of tasks to be executed.
 
-You may have used make to compile a program from source code. 
+You may have used make to compile a program from source code.
 
 Most open-source projects use `make` to compile a final executable binary, which can then be installed using `make install`.
 
 Create a `makefile`:
 
-```
+```bash
 say_hello:
         echo "Hello World"
 ```
 
 And then run it:
 
-```
+```bash
 $ make
 echo "Hello World"
 Hello World
@@ -42,7 +42,7 @@ Hello World
 
 Tabs are important!
 
-```
+```bash
 target: prerequisites
 <TAB> recipe
 ```
@@ -55,17 +55,17 @@ With semantic versioning, every version number is of the form: **major.minor.pat
 - If you add to your API in a backward-compatible way, increase the **minor** version.
 - If you change the API in a non-backward-compatible way, increase the **major** version.
 
-## Lock files 
+## Lock files
 
 - **Lock file**: a file that lists the exact version you currently depen on for each dependency.
 
-- **Vendoring** - a.k.a. dependency locking: when you copy all the code of your dependencies into your own project. 
+- **Vendoring** - a.k.a. dependency locking: when you copy all the code of your dependencies into your own project.
 
- ## Continuous integration (CI)
+## Continuous integration (CI)
 
 Continuous integration, or CI, is an umbrella term for “stuff that runs whenever your code changes” - a.k.a. event-triggered actions. E.g CIs: Travis CI, Azure Pipelines, and GitHub Actions.
 
-They all work in roughly the same way: you add a file to your repository that describes what should happen when various things happen to that repository (e.g. re-run the tests when there are code changes. 
+They all work in roughly the same way: you add a file to your repository that describes what should happen when various things happen to that repository (e.g. re-run the tests when there are code changes.
 
 Dependabot: checks whether your dependencies are up-to-date and submits an automatic PR if they're not.
 

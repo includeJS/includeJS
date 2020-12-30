@@ -19,12 +19,13 @@ Create this file and directory at the root of your project. Once you've written 
 
 This is where your template will live. Besides the markdown content, the template requires `frontmatter`.
 
-```
+```yaml
 ---
 name: Feature Request 💡 (name of the template)
 about: Suggest a new idea for the project. ( template description)
 labels: enhancement (default template labels)
 ---
+
 ```
 
 ## Auto-assigning PRs on GitHub

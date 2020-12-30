@@ -37,7 +37,7 @@ But, variables won't expand inside single quotes (but yes in double-quotes)
 
 Function example: (`mcd` - create and `cd` into that folder)
 
-```
+```bash
 mcd () {
   mkdir -p "$1"
   cd "$1"

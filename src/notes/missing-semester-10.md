@@ -38,11 +38,11 @@ Daemons are processes that are often started when the system is bootstrapped and
 
 For example, `sshd`, the SSH daemon, is the program responsible for listening to incoming SSH requests and checking that the remote user has the necessary credentials to log in.
 
-#### 🤔 What is the difference between daemons and launch agents?
+🤔 **What is the difference between daemons and launch agents?**
 
 Daemons are system-wide services that always run in the background, while agents describe regular services that are to be executed on user-specific events.
 
-#### 🤔 Where can I find launch daemons and agents?
+🤔 **Where can I find launch daemons and agents?**
 
 - `~/Library/LaunchAgents`
 - `/Library/LaunchAgents`

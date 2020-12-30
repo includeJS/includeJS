@@ -12,7 +12,7 @@ description: "On React Router, Overmind, Framer motion, Styled components, Formi
 
 - `history`: The history library lets you efficiently manage session history anywhere JavaScript runs (it's now a peer dependency)
 
-- `<Route path="/" element={<Home />}/> ` == ` <Home path="/" />`
+- `<Route path="/" element={<Home />}/>` == `<Home path="/" />`
 
 - `<Link>` To create links between pages in the same app.
 
@@ -34,7 +34,7 @@ description: "On React Router, Overmind, Framer motion, Styled components, Formi
 
 - it is a mutable state management option
 
-```
+```js
 import { createOvermind } from "overmind";
 import { createHook, Provider } from "overmind-react";
 ```
@@ -56,7 +56,7 @@ import { createHook, Provider } from "overmind-react";
 
 - Every styled component will know about the styling from the `ThemeProvider`!
 
-```
+```js
 import { ThemeProvider } from "styled-components";
 import { theme } from "./utils/styles"; // where we define our styles
 <ThemeProvider theme={theme}>
@@ -64,7 +64,7 @@ import { theme } from "./utils/styles"; // where we define our styles
 
 - For adding global styles:
 
-```
+```js
 export const Style = createGlobalStyle`
   body {
     text-align: center;
@@ -85,7 +85,7 @@ const Heading = styled.h1`
 
 - You can do JS logic:
 
-```
+```js
 background: ${({ theme, react }) => (react ?
 theme.colors.white : "black")};
 ```

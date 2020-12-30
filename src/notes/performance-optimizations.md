@@ -41,7 +41,7 @@ Note: I'm not a very familiar with `webpack`, so I skipped most of the tips conc
 
 ## Other DevTools Magic
 
-### Debugging
+### Debugging from DevTools
 
 - If your app is lagging, that might be due to "repainting too much on the screen": **Dev tools → More tools → Rendering → Paint Flashing**
 
@@ -63,7 +63,7 @@ Note: I'm not a very familiar with `webpack`, so I skipped most of the tips conc
 
 - Check how much they are affecting your loading speed: **Network → Sort by domain → Right-click each third-party → Select "Block request domain"**. Then run lighthouse audit to compare.
 
-### Defer 3rd parties:
+### Defer 3rd parties
 
 - More details [here](https://3perf.com/blog/notion/#defer-third-parties), or just wrap your third party loading code with `setTimeout`.
 

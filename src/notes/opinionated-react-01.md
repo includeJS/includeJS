@@ -13,8 +13,6 @@ description: "On how to setup reactJS projects, when to use Typescript."
 - ✏️ means the author
 - 👩‍💻 means moi
 
-# Folder/ File Structuring
-
 ## Folder Structure
 
 ✏️ Four main folders (inside `src`):
@@ -56,15 +54,15 @@ But, but, what happens when you're searching?
 
 ✏️
 
-```
-const LandingPage = () => {}
-export default LandingPage
+```js
+const LandingPage = () => {};
+export default LandingPage;
 ```
 
 👩‍💻
 
-```
-export default function LandingPage () {}
+```js
+export default function LandingPage() {}
 ```
 
 ## eslint

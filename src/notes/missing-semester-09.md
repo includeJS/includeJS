@@ -23,11 +23,11 @@ log2(#possibilities):
 
 Roughly 40 bits is considered a strong password (80 bits for offline attacks and to be really secure).
 
-#### 🤔 What is encryption?
+🤔 **What is encryption?**
 
 Encryption is a way of using mathematics to scramble the content of a digital file or message so that it can only be decrypted and read by someone who has a particular piece of information, such as a password or an encryption key.
 
-#### 🤔 How to break passwords?
+🤔 **How to break passwords?**
 
 - credential Stuffing (purchasing credentials from breached sites)
 - phishing (man-in-the-middle attack)
@@ -53,7 +53,7 @@ Hash functions have a number of properties:
 - Non-invertible: it is hard to figure out the input based on the output
 - Collision resistant: it's hard to find two different inputs that produce the same output
 
-#### 🤔 What is a checksum?
+🤔 **What is a checksum?**
 
 A checksum is a sequence of numbers and letters used to check data for errors. If you know the checksum of an original file, you can use a checksum utility to confirm your copy is identical.
 
@@ -71,7 +71,7 @@ KDFs are similar to hask functions, but on top of that they are (purposefully) s
 
 A key derivation function is an algorithm that generates a cryptographic key from a password or a master key.
 
-#### 🤔 What is a cryptographic key?
+🤔 **What is a cryptographic key?**
 
 A cryptographic key is data that is used to lock or unlock cryptographic functions such as encryption, authentication and authorization. Keys are typically designed to be both random and reasonably long such that they are difficult to guess.
 
@@ -79,7 +79,7 @@ A cryptographic key is data that is used to lock or unlock cryptographic functio
 
 In symmetric-key cryptography (alias secret key cryptography) the same key is used to encrypt and decrypt the data.
 
-```
+```bash
 keygen() -> key  (a randomized function that proudces the key)
 
 encrypt(plaintext: array<byte>, key) -> array<byte>  (the ciphertext)
@@ -92,7 +92,7 @@ Correctness property: if you decrypt the cipher with a key, it will give you bac
 
 Used for encrypting files for storage on un-encrypted cloud service. They are somewhat less useful for sending messages from one computer to another because both ends of the communication channel must possess the key and must keep it secure
 
-#### 🤔 What is salt?
+🤔 **What is salt?**
 
 Salt is/are random data that is added to data before it is passed to a hash function. It is a cryptographic technique that makes hash nodes more difficult to reverse.
 
@@ -100,7 +100,7 @@ Salt is/are random data that is added to data before it is passed to a hash func
 
 A matching public/private key pair whereby anyone can encrypt with the public key, but only those who hold the private key can decrypt.
 
-```
+```bash
 keygen() -> (public key, private key)  (this function is randomized)
 
 encrypt(plaintext: array<byte>, public key) -> array<byte>  (the ciphertext)
@@ -115,13 +115,13 @@ verify(message: array<byte>, signature: array<byte>, public key) -> boolean  (wh
 
 When you run ssh-keygen, it generates an asymmetric key pair, public_key, private_key.
 
-#### 🤔 What is PGP?
+🤔 **What is PGP?**
 
 Pretty Good Privacy (PGP) is an encryption program that provides cryptographic privacy and authentication for data communication. Used by ProtonMail
 
 [Video explanation](https://myshadow.org/resources/the-key-concept)
 
-### Further resources:
+### Further resources
 
 - Website: [Tactical Tech Initiative](https://tacticaltech.org/)
-- Podcast: [Intel Techniques by Michael Bazzell ](https://inteltechniques.com/)
+- Podcast: [Intel Techniques by Michael Bazzell](https://inteltechniques.com/)

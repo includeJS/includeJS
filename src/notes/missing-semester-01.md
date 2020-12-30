@@ -21,7 +21,7 @@ description: "(Bourne Again SHell) is a common shell that comes preinstalled on 
 - `date` - current date
 - `cal` - calendar
 
-* `echo $PATH`
+- `echo $PATH`
 
 Shows all the paths on your machine that the shell will search for programs (it's a colon-separated list).
 

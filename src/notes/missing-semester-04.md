@@ -14,7 +14,7 @@ description: "Data wrangling is taking data in one format and changing it into a
 
 **Shoutout to [tldr](https://formulae.brew.sh/formula/tldr) and [dashdash](https://dashdash.io/1) for making the `man` files much easier to work with👍!**
 
-Note, I have `tldr` aliased to `help`, it's much easier to type! (my [other bash `alias`es](https://gist.github.com/edieblu/ac74baf5b8cb1fd66edb2c0218c508e1)). 
+Note, I have `tldr` aliased to `help`, it's much easier to type! (my [other bash `alias`es](https://gist.github.com/edieblu/ac74baf5b8cb1fd66edb2c0218c508e1)).
 
 ## Regex
 

@@ -7,7 +7,7 @@ description: "My notes on Introduction to MongoDb available on FrontEndMasters."
 link: "https://frontendmasters.com/courses/mongodb/"
 ---
 
-**1. Setup**
+## 1. Setup
 
 Get the course [github repo](https://github.com/FrontendMasters/intro-mongo-db) and install [mongoDB](https://docs.mongodb.com/manual/administration/install-community/).
 
@@ -29,13 +29,13 @@ Use schemas to validate your data and stay consistent. 👍
 
 Random: MongoDB is mostly written in C++, but other languages too.
 
-**2. MongoDB and Mongoose**
+## 2. MongoDB and Mongoose
 
 Use [Mongoose](https://mongoosejs.com/) to connect your `node.js` application to a mongoDB database.
 
 - The default `mongodb` port is: port 27017.
 
-**3. Schemas, models, collections**
+## 3. Schemas, models, collections
 
 Use built-in JS primitives as typings. 👍
 
@@ -43,7 +43,7 @@ Use built-in JS primitives as typings. 👍
 
 Keep the collection names singular and lowercase (mongo will pluralize it). Keep the Model names singular, but uppercase. 👍
 
-**4. Queries**
+## 4. Queries
 
 Use `async/await` for mongodb operations. 👍
 
@@ -63,25 +63,25 @@ Check out other [collection methods](https://docs.mongodb.com/manual/reference/m
 
 Queries return a query object. To signal that you're done with a modal query, you attach `exec()` to the end of it.
 
-```
+```js
 const getUserById = (id) => {
-  return User.findById(id)
-    .exec()
-}
+  return User.findById(id).exec();
+};
 ```
 
 With update queries you need to add a second argument to actually return the updated object.
 
-```
+```js
 const updateUserById = (id, update) => {
-  return User.findByIdAndUpdate(id, update, {new: true}).exec()
-}
+  return User.findByIdAndUpdate(id, update, { new: true }).exec();
+};
 ```
 
-**5. Associations**
+## 5. Associations
+
 Reference the school model on the student schema:
 
-```
+```js
 school: {
   type: moongose.Schema.Types.ObjectId,
   ref: 'school'
@@ -94,68 +94,75 @@ school: {
 
 You can also add query filters:
 
-```
+```js
 const postByContentLength = (maxContentLength, minContentLength) => {
   return Post.find({
-    contentLength: {$lt: maxContentLength, $gt: minContentLength}
-  })
-    .exec()
-}
+    contentLength: { $lt: maxContentLength, $gt: minContentLength },
+  }).exec();
+};
 ```
 
 Add related posts to a post:
 
-```
+```js
 const addSimilarPosts = (postId, similarPosts) => {
-  return Post.findByIdAndUpdate(postId, {
-    $push: {similarPosts: {$each: similarPosts}}
-  },{new: true})
-}
+  return Post.findByIdAndUpdate(
+    postId,
+    {
+      $push: { similarPosts: { $each: similarPosts } },
+    },
+    { new: true }
+  );
+};
 ```
 
-**6. Virtuals**
+## 6. Virtuals
 
 - A virtual is a field that doesn't exist in a database, but gets created at runtime. You can `get()` or `set()` virtuals. `._id` is a built-in virtual.
 
-```
-school.virtual('staffCount').get(function () {
-  return this.staff.length
-})
+```js
+school.virtual("staffCount").get(function () {
+  return this.staff.length;
+});
 ```
 
-**7. Hooks (middleware)**
+## 7. Hooks (middleware)
 
 - You can add `eventListeners` to any operation that happens (either before - `pre` or after - `post`, syn or async - any function passing more than one argument).
 
-```
-orgSchema.post('remove', async (doc, next) => {
-  await Project.remove({org: doc._id}).exec()
-  next()
-})
+```js
+orgSchema.post("remove", async (doc, next) => {
+  await Project.remove({ org: doc._id }).exec();
+  next();
+});
 ```
 
 Use `next()` when you have more than one hook. 👍
 
-**8. Compound Index**
+## 8. Compound Index
+
 A compound (unique) index limits the scope of uniqueness to a particular collection:
 
-```
-projectSchema.index({
-  org: 1,
-  name: 1
-}, {unique: true})
+```js
+projectSchema.index(
+  {
+    org: 1,
+    name: 1,
+  },
+  { unique: true }
+);
 ```
 
-**9. REST API**
+## 9. REST API
 
 Go to an express route, perform a db operation and send back a response.
 
-```
-app.get('/todo/:id', async (req, res) => {
-  const todoId = req.params.id
-  const todo = await Todo.findById(id).exec()
-  res.status(200).json(todo)
-})
+```js
+app.get("/todo/:id", async (req, res) => {
+  const todoId = req.params.id;
+  const todo = await Todo.findById(id).exec();
+  res.status(200).json(todo);
+});
 ```
 
 - You can use `skip()` and `limit()` methods for pagination.
@@ -166,6 +173,6 @@ Make sure to wrap any `async/await` in a `try` and `catch` statement. 👍
 
 Transactions: that puts all the operations in a queue. "Transactions let you execute multiple operations in isolation and potentially undo all the operations if one of them fails."
 
-**10. In Conclusion**
+## 10. In Conclusion
 
 I'm relatively new to MongoDB, but this course was a nice overview on how to query, validate and model data in mongoDB. Also, Scott Moss is "legit" 😎.
