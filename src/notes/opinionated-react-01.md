@@ -54,14 +54,14 @@ But, but, what happens when you're searching?
 
 ✏️
 
-```js
+```
 const LandingPage = () => {};
 export default LandingPage;
 ```
 
 👩‍💻
 
-```js
+```
 export default function LandingPage() {}
 ```
 

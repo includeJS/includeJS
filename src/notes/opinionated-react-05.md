@@ -18,7 +18,7 @@ description: "On Storybook and GraphQL"
 
 - For adding the CRA preset (inside `main.js`):
 
-```js
+```
 module.exports = {
   addons: ["@storybook/preset-create-react-app"],
   stories: ["../src/**/*.stories.js"],
@@ -29,7 +29,7 @@ module.exports = {
 
 e.g.:
 
-```js
+```
 import React from "react";
 import Button from "./";
 export default {
@@ -43,7 +43,7 @@ export const basic = () => <Button>Hello Button</Button>;
 
 - `@storybook/theming`
 
-```js
+```
 import { addons } from "@storybook/addons";
 import { themes } from "@storybook/theming";
 addons.setConfig({
@@ -69,7 +69,7 @@ addons.setConfig({
 - In REST, the shape and size of the data resource is determined by the server. With Graphql, it's determined by the query (request)
 - In REST, you have to make multiple API calls to retrieve relational data. With GraphQL, you can start with entry resource and traverse all the connections in one request
 
-```js
+```
 query {
   totalPets
 }

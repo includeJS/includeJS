@@ -63,7 +63,7 @@ Check out other [collection methods](https://docs.mongodb.com/manual/reference/m
 
 Queries return a query object. To signal that you're done with a modal query, you attach `exec()` to the end of it.
 
-```js
+```
 const getUserById = (id) => {
   return User.findById(id).exec();
 };
@@ -71,7 +71,7 @@ const getUserById = (id) => {
 
 With update queries you need to add a second argument to actually return the updated object.
 
-```js
+```
 const updateUserById = (id, update) => {
   return User.findByIdAndUpdate(id, update, { new: true }).exec();
 };
@@ -81,7 +81,7 @@ const updateUserById = (id, update) => {
 
 Reference the school model on the student schema:
 
-```js
+```
 school: {
   type: moongose.Schema.Types.ObjectId,
   ref: 'school'
@@ -94,7 +94,7 @@ school: {
 
 You can also add query filters:
 
-```js
+```
 const postByContentLength = (maxContentLength, minContentLength) => {
   return Post.find({
     contentLength: { $lt: maxContentLength, $gt: minContentLength },
@@ -104,7 +104,7 @@ const postByContentLength = (maxContentLength, minContentLength) => {
 
 Add related posts to a post:
 
-```js
+```
 const addSimilarPosts = (postId, similarPosts) => {
   return Post.findByIdAndUpdate(
     postId,
@@ -120,7 +120,7 @@ const addSimilarPosts = (postId, similarPosts) => {
 
 - A virtual is a field that doesn't exist in a database, but gets created at runtime. You can `get()` or `set()` virtuals. `._id` is a built-in virtual.
 
-```js
+```
 school.virtual("staffCount").get(function () {
   return this.staff.length;
 });
@@ -130,7 +130,7 @@ school.virtual("staffCount").get(function () {
 
 - You can add `eventListeners` to any operation that happens (either before - `pre` or after - `post`, syn or async - any function passing more than one argument).
 
-```js
+```
 orgSchema.post("remove", async (doc, next) => {
   await Project.remove({ org: doc._id }).exec();
   next();
@@ -143,7 +143,7 @@ Use `next()` when you have more than one hook. 👍
 
 A compound (unique) index limits the scope of uniqueness to a particular collection:
 
-```js
+```
 projectSchema.index(
   {
     org: 1,
@@ -157,7 +157,7 @@ projectSchema.index(
 
 Go to an express route, perform a db operation and send back a response.
 
-```js
+```
 app.get("/todo/:id", async (req, res) => {
   const todoId = req.params.id;
   const todo = await Todo.findById(id).exec();

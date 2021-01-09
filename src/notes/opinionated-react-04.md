@@ -34,7 +34,7 @@ description: "On React Router, Overmind, Framer motion, Styled components, Formi
 
 - it is a mutable state management option
 
-```js
+```
 import { createOvermind } from "overmind";
 import { createHook, Provider } from "overmind-react";
 ```
@@ -56,7 +56,7 @@ import { createHook, Provider } from "overmind-react";
 
 - Every styled component will know about the styling from the `ThemeProvider`!
 
-```js
+```
 import { ThemeProvider } from "styled-components";
 import { theme } from "./utils/styles"; // where we define our styles
 <ThemeProvider theme={theme}>
@@ -64,7 +64,7 @@ import { theme } from "./utils/styles"; // where we define our styles
 
 - For adding global styles:
 
-```js
+```
 export const Style = createGlobalStyle`
   body {
     text-align: center;
@@ -77,7 +77,7 @@ export const Style = createGlobalStyle`
 
 - You wrap your element inside a `styled` function (don't forget to add the backticks!)
 
-```js
+```
 const Heading = styled.h1`
   display: block;
 `;
@@ -85,7 +85,7 @@ const Heading = styled.h1`
 
 - You can do JS logic:
 
-```js
+```
 background: ${({ theme, react }) => (react ?
 theme.colors.white : "black")};
 ```
@@ -110,7 +110,7 @@ theme.colors.white : "black")};
 
 - from:
 
-```js
+```
 <input
   onChange={formik.handleChange}
   value={values.email}
@@ -122,7 +122,7 @@ theme.colors.white : "black")};
 
 - to:
 
-```js
+```
 <input {...getFieldProps("email")} type="email" id="email" />
 ```
 

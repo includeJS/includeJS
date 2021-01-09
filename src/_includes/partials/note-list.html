@@ -15,11 +15,11 @@
             <p>
               <time class="note-stack-date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
             </p>
-            <p>
+            <p class="note-more">
               {% if item.data.description %}
                 {{item.data.description}}
-                <a href="{{ item.url }}" aria-hidden="true" class="read-more">Read the rest</a>
               {% endif %}
+              <a href="{{ item.url }}" aria-hidden="true" class="read-more">Read the rest</a>
             </p>
           </li>
         {% endfor %}

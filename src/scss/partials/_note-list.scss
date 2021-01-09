@@ -31,6 +31,11 @@
   font-size: $SCALE--1;
 }
 
+.note-more {
+  display: flex;
+  flex-direction: column;
+}
+
 .read-more {
   text-decoration: underline;
   font-size: $SCALE--1;

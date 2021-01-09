@@ -2,16 +2,16 @@
   display: flex;
 }
 
-// .l-navigation > * {
-//   white-space: pre;
-// }
-
 .l-navigation > * + * {
   margin-left: 0.5rem;
 }
 
 .navigation {
   list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-size: medium;
+  color: rgba($violet, 0.9);
 }
 
 $footer-nav-breakpoint: 1000px;

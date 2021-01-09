@@ -22,22 +22,18 @@ description: "On useState, Context and others"
 
 🕵️‍♀️ Example:
 
-```javascript
+```
 import React, { useContext } from "react";
-
 const Person = {
   name: "Sara",
   city: "Berlin",
   nationality: "Portugal",
 };
-
 const PersonContext = React.createContext();
-
 const Header = () => {
   const person = useContext(PersonContext);
   return <p>Hello {person.name}</p>;
 };
-
 const Main = () => {
   const person = useContext(PersonContext);
   return (
@@ -46,7 +42,6 @@ const Main = () => {
     </p>
   );
 };
-
 const App = () => {
   return (
     <PersonContext.Provider value={Person}>
@@ -57,7 +52,6 @@ const App = () => {
     </PersonContext.Provider>
   );
 };
-
 export default App;
 ```
 

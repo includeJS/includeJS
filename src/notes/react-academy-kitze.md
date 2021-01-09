@@ -27,7 +27,7 @@ Abstract the custom hooks (like a util function) and make it return an object - 
 
 `useEffect` is more than just a lifecycle hook, for example, the hook will update whenever `componentDidMount` **and** whenever any of the other dependencies you care about changes!
 
-```js
+```
 const useDocumentTitle = (title) => {
   useEffect(() => {
     window.document.title = title;
