@@ -25,8 +25,8 @@ description: "Background, history, naming, future & past JS, JS gaps and more."
 
 Also:
 
-- "A **script** is code that acts upon some system in an external or independent manner and can be removed or disabled without disabling the system itself (aka "lightweight" programming)."
-- "A **program** is code that constitutes a system. The program's code may be written in a modular manner, with good separation of concerns, but the code is fundamentally internal to, and a dependency of, the system itself."
+- A **script** is code that acts upon some system in an external or independent manner and can be removed or disabled without disabling the system itself (aka "lightweight" programming).
+- A **program** is code that constitutes a system. The program's code may be written in a modular manner, with good separation of concerns, but the code is fundamentally internal to, and a dependency of, the system itself.
 
 ### But, more specifically
 
