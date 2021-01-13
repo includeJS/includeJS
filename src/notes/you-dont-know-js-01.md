@@ -20,8 +20,8 @@ description: "Background, history, naming, future & past JS, JS gaps and more."
 
 **🤔 What is the difference between a script and a program?**
 
-- all scripting languages are programming languages
-- the main difference is that a script is interpreted (does not need to be compiled), while a program is compiled
+- All scripting languages are programming languages.
+- The main difference is that a script is interpreted (does not need to be compiled), while a program is compiled.
 
 Also:
 
@@ -71,10 +71,11 @@ Also:
 
 **🤔 What is backwards compatibility?**
 
-Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid.
+- Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid.
 
 **🤔 What is forwards compatibility?**
-means that including a new addition to the language in a program would not cause that program to break if it were run in an older JS engine (JS is not).
+
+- This means that including a new addition to the language in a program would not cause that program to break if it were run in an older JS engine (JS is not).
 
 HTML and CSS, by contrast, are forwards-compatible but not backwards-compatible.
 
@@ -83,11 +84,12 @@ HTML and CSS, by contrast, are forwards-compatible but not backwards-compatible.
 - Developers should focus on writing the clean, new syntax forms, and let the tools take care of producing a forwards-compatible version of that code that is suitable to deploy and run on the oldest-supported JS engine environments.
 
 **🤔 What is transpiling?**
-It' using a tool to convert the source code of a program from one form to another (but still as textual source code). Typically, forwards-compatibility problems related to syntax are solved by using a transpiler (e.g. Babel) to convert from that newer JS syntax version to an equivalent older syntax.
+
+- It' using a tool to convert the source code of a program from one form to another (but still as textual source code). Typically, forwards-compatibility problems related to syntax are solved by using a transpiler (e.g. Babel) to convert from that newer JS syntax version to an equivalent older syntax.
 
 **🤔 What is a polyfill? (aka Shim?)**
 
-If the forwards-compatibility issue is not related to new syntax, but rather to a missing API method that was only recently added, the most common solution is to provide a definition for that missing API method that stands in and acts as if the older environment had already had it natively defined.
+- If the forwards-compatibility issue is not related to new syntax, but rather to a missing API method that was only recently added, the most common solution is to provide a definition for that missing API method that stands in and acts as if the older environment had already had it natively defined.
 
 ## Intepretation
 
