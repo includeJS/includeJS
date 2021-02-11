@@ -68,7 +68,7 @@ But! Unlike objects, functions can be run aka evoked with `()`.
 
 ## Closure (aka persistent lexical scope reference)
 
-What follows is a long explanation of what clousures are and how they work (and should they be called closures?):
+What follows is a long explanation of what closures are and how they work (and should they be called closures?):
 
 - When a function gets called, we create a live store of its data (local memory/variable environment/state).
 - When the function finishes executing, its local memory is deleted (except for the returned value).
