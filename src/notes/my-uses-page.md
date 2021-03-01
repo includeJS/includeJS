@@ -14,7 +14,7 @@ link: "https://uses.tech/"
 
 ## favorite homebrews (the less obvious-ones) 🍺
 
-- [autojumop](https://formulae.brew.sh/formula/autojump) (for quick navigation)
+- [autojump](https://formulae.brew.sh/formula/autojump) (for quick navigation)
 
 - [bat](https://formulae.brew.sh/formula/bat#default)
   (`cat` with syntax highlighting)
