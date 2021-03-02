@@ -9,7 +9,7 @@ description: "My take on trying to learn Spanish in 6 months."
 ---
 ## The Idea 💡
 
-Since January 1. of this (2021), my wife and I have switched to (almost) exclusively speaking Spanish at home. **My plan is to become some sort of fluent by the end of June (2021)**. Fortunately, Valerie, my Mrs, is on board and has agreed to help me.
+Since January 1. of this year (2021), my wife and I have switched to (almost) exclusively speaking Spanish at home. **My plan is to become some sort of fluent by the end of June (2021)**. Fortunately, Valerie, my Mrs, is on board and has agreed to help me.
 
 I'm not a native Spanish speaker (Valerie is), nor have I had any formal Spanish training. But enough is enough, we've been together for almost ten years, and I find it almost embarrassing that I haven't learned it yet. Also, we currently speak English to each other, which is just odd since neither of us is a native English speaker.
 
@@ -23,7 +23,7 @@ I also worked as a teacher and translator for a while; I was part of a two-perso
 
 Blah. Okay, that's done.
 
-**Disclaimer**: I should first say that before this, my Spanish could be described as super elementary. I did do a bunch of Duolingo way back when that didn't stick. I also picked up some from listening to Valerie talk to her family, some from watching movies or series, some from randomly studying some.
+**Disclaimer**: I should first say that before this, my Spanish could be described as super elementary. I did do a bunch of Duolingo way back when that didn't stick. I also picked up some from listening to Valerie talk to her family, some from watching movies or series, some from randomly studying.
 
 So in terms of language tests, I would describe it as reading level A2, listening A2, writing A1, and speaking A1.
 
@@ -68,7 +68,7 @@ I changed my phone's language to Spanish! And now, every time I see "Tienes más
 Also, Almodovar ([Dolor y Gloria](https://www.imdb.com/title/tt8291806/)!), the documentary [Midnight Family](https://www.imdb.com/title/tt6010976/) is really really good (about a family-run private ambulance. Yes, that's a thing in Mexico!). If possible, with Spanish subtitles. If no subtitles, pretend to understand stuff and laugh at the same time wife does.
 
 ### Grammar
-I pick up some from Language Transfer, and I have two grammar books that I sometimes peek at. Otherwise, pester Valerie.
+I pick some up from Language Transfer, and I have two grammar books that I sometimes peek at. Otherwise, pester Valerie.
 
 ### Thinking in Spanish
 I try to talk to myself in Spanish. This normally results in both of us getting confused.
