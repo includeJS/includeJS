@@ -35,7 +35,7 @@ Every day for the past 60 days, without exception, I've done the following three
 - 5 lessons (I'm on a pro plan so I can keep jumping over levels)
 - 4 stories
 
-2. I really like Language Transfer and usually do 20-30min of listening to that while doing the dishes etc. It's great for learning grammar and making connections between languages. I'm currently doing it the second time around.
+2. I really like [Language Transfer](https://www.languagetransfer.org/) and usually do 20-30min of listening to that while doing the dishes etc. It's great for learning grammar and making connections between languages. I'm currently doing it the second time around.
 
 3. Most importantly, as much as I can, I try talking to Valerie exclusively in Spanish (or at least, my take on Spanish). We tend to pause this during stressful working hours (because it just takes too much brainpower) and when I really excitedly want to tell her something (for example the kitchen is on fire!).
 
@@ -54,21 +54,21 @@ Besides the three regulars, there's also the miscellaneous bucket of consuming c
 Thanks to Valerie, we have lots of Spanish books, and I can't understand any of them. I've now started reading Agatha Christie's novels in Spanish, it's still super difficult, but at least I already know the genre 😳.
 
 ### Music
-My favorites are Jesse and Joy, La Oreja de Van Gogh and Café  Tacuba. Also, Nortec, but that's instrumental, so I guess that doesn't count 😆.
+My favorites are [Jesse & Joy](https://en.wikipedia.org/wiki/Jesse_%26_Joy), [La Oreja de Van Gogh](https://en.wikipedia.org/wiki/La_Oreja_de_Van_Gogh) and [Café  Tacuba](https://en.wikipedia.org/wiki/Caf%C3%A9_Tacuba). Also, [Nortec Collective](https://en.wikipedia.org/wiki/Nortec_Collective), but that's instrumental, so I guess that doesn't count 😆.
 
 ## Podcasts
-Lots of Radio Ambulante, which features content from all over the Spanish-speaking world, so you get to really practice those accents (or, in my case, get frustrated because you can't understand any of the accents!).
+Lots of [Radio Ambulante](https://radioambulante.org/en), which features content from all over the Spanish-speaking world, so you get to really practice those accents (or, in my case, get frustrated because you can't understand any of the accents!).
 
 ### Phone
 I changed my phone's language to Spanish! And now, every time I see "Tienes más mensajes Nuevos" pop up on my phone, I get to read it (in my head) in a dramatic Spanish accent (think Antonio Banderas).
 
 ### Movies
-El Secreto de Sus Ojos being my favorite, but I also enjoyed the super-old telenovela La Mirada de Mujer featuring a romance between a 50 something lady and a 35 something man (woooohooo Mexico!).
+[El Secreto de Sus Ojos](https://www.imdb.com/title/tt1305806/) being my favorite, but I also enjoyed the telenovela [Mirada de Mujer](https://www.imdb.com/title/tt0145621/) featuring a romance between a 50 something lady and a 35 something man (woooohooo Mexico!).
 
-Also, Almodovar (Dolor y Gloria!), the documentary Midnight Family is really really good (about a family-run private ambulance. Yes, that's a thing in Mexico!). If possible, with Spanish subtitles. If no subtitles, pretend to understand stuff and laugh at the same time wife does.
+Also, Almodovar ([Dolor y Gloria](https://www.imdb.com/title/tt8291806/)!), the documentary [Midnight Family](https://www.imdb.com/title/tt6010976/) is really really good (about a family-run private ambulance. Yes, that's a thing in Mexico!). If possible, with Spanish subtitles. If no subtitles, pretend to understand stuff and laugh at the same time wife does.
 
 ### Grammar
-I pick up some from Language transfer, and I have two grammar books that I sometimes peek at. Otherwise, pester Valerie.
+I pick up some from Language Transfer, and I have two grammar books that I sometimes peek at. Otherwise, pester Valerie.
 
 ### Thinking in Spanish
 I try to talk to myself in Spanish. This normally results in both of us getting confused.
