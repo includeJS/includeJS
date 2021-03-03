@@ -5,7 +5,7 @@ title: "My approach to learning Spanish 🤔"
 tags:
   - language
   - Spanish
-description: "My take on trying to learn Spanish in 6 months."
+description: "6 months to Spanish fluency: good idea, bad idea, the worst? 🤷‍♀️"
 ---
 ## The Idea 💡
 
