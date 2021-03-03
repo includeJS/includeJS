@@ -59,7 +59,7 @@ Thanks to Valerie, we have lots of Spanish books, and I can't understand any of 
 ### Music
 My favorites are [Jesse & Joy](https://en.wikipedia.org/wiki/Jesse_%26_Joy), [La Oreja de Van Gogh](https://en.wikipedia.org/wiki/La_Oreja_de_Van_Gogh), [Los Auténticos Decadentes](https://en.wikipedia.org/wiki/Los_Aut%C3%A9nticos_Decadentes), [Lila Downs](https://en.wikipedia.org/wiki/Lila_Downs)  and [Café  Tacuba](https://en.wikipedia.org/wiki/Caf%C3%A9_Tacuba). Also, [Nortec Collective](https://en.wikipedia.org/wiki/Nortec_Collective), but that's instrumental, so I guess that doesn't count 😆.
 
-## Podcasts
+### Podcasts
 Lots of [Radio Ambulante](https://radioambulante.org/en), which features content from all over the Spanish-speaking world, so you get to really practice those accents (or, in my case, get frustrated because you can't understand any of the accents!).
 
 ### Phone
