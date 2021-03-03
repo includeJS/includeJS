@@ -34,7 +34,7 @@ Blah. Okay, that's done.
 
 Every day for the past 60 days, without exception, I've done the following three things:
 
-1. I start the day with some gentle Duolingo warmup - I know that's kind of lazy studying, but I'm sleepy in the mornings, and the colors are so nice. I aim for 200xp points per day, and this currently entails:
+1. I start the day with some gentle Duolingo warmup (if anyone wants to be pals on Duolingo, [this is me](https://www.duolingo.com/profile/edieblu)) - I know that's kind of lazy studying, but I'm sleepy in the mornings, and the colors are so nice. I aim for 200xp points per day, and this currently entails:
 - 5 lessons (I'm on a pro plan so I can keep jumping over levels)
 - 4 stories
 
