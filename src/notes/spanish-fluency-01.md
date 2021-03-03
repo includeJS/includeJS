@@ -25,8 +25,11 @@ Blah. Okay, that's done.
 
 **Disclaimer**: I should first say that before this, my Spanish could be described as super elementary. I did do a bunch of Duolingo way back when that didn't stick. I also picked up some from listening to Valerie talk to her family, some from watching movies or series, some from randomly studying.
 
-So in terms of language tests, I would describe it as reading level A2, listening A2, writing A1, and speaking A1.
-
+**Before** starting all of this, I would describe my Spanish level as:
+- reading A2
+- listening A2
+- writing A1
+- speaking A1
 ## The Execution 🔪
 
 Every day for the past 60 days, without exception, I've done the following three things:
@@ -75,6 +78,12 @@ I try to talk to myself in Spanish. This normally results in both of us getting 
 
 ## In conclusion
 So, how comfortable am I today, 1/3 into my learning journey, that I'll be able to achieve Spanish fluency by the end of June?
+
+**After** having done 60 days of studying around 2 hours each day, I would describe my Spanish level as:
+- reading B2
+- listening B1
+- writing B1
+- speaking B1
 
 There are days (like today) when everything I say is wrong or mumbled, or just complete nonsense, and I feel I'll never get it. And it's tiring hearing yourself (poor Valerie ❤️) making the same mistakes over and over again, or saying things like Me no want salad, me want potato". Sigh.
 
