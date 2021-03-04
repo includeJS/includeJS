@@ -4,6 +4,10 @@
   {% set pageTitle = title %}
 {% endif %}
 
+{% if not socialImage %}
+  {% set socialImage = 'https://includejs.dev' + '/images/soc-share.jpg' %}
+{% endif %}
+
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
