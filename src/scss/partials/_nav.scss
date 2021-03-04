@@ -6,6 +6,8 @@
   margin-left: 0.5rem;
 }
 
+$nav-breakpoint:600px;
+
 .navigation {
   list-style: none;
   text-transform: uppercase;
@@ -14,7 +16,19 @@
   color: rgba($violet, 0.9);
 }
 
-$footer-nav-breakpoint: 1000px;
+@media (max-width: $nav-breakpoint) {
+  .l-navigation {
+    flex-wrap: wrap;
+    li:first-child {
+      margin-left: 0.5rem;
+    }
+    li {
+      margin-top: 0.5rem
+    }
+  }
+}
+
+$footer-nav-breakpoint: 1150px;
 .l-footer-nav {
   --footer-nav-display: none;
 }
