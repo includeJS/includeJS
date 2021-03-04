@@ -62,6 +62,9 @@ My favorites are [Jesse & Joy](https://en.wikipedia.org/wiki/Jesse_%26_Joy), [La
 ### Podcasts
 Lots of [Radio Ambulante](https://radioambulante.org/en), which features content from all over the Spanish-speaking world, so you get to really practice those accents (or, in my case, get frustrated because you can't understand any of the accents!).
 
+### News
+We tend to liten to Spanish radio during our lunch breaks. So far I've tried [RTVE](https://www.rtve.es/radio/) and [Cadena SER](https://cadenaser.com/). Spaniards talk so fast! 😱
+
 ### Phone
 I changed my phone's language to Spanish! And now, every time I see "Tienes más mensajes Nuevos" pop up on my phone, I get to read it (in my head) in a dramatic Spanish accent (think Antonio Banderas).
 
