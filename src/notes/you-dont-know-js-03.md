@@ -1,7 +1,7 @@
 ---
 path: "/you-dont-know-js-03"
 date: "2021-03-05"
-title: "You Don't Know JS - 03 Surveying JS"
+title: "You Don't Know JS - 03 Digging to the Roots of JS"
 tags:
   - javascript
   - ydkjs
@@ -22,7 +22,7 @@ description: "Iteration and iterables, closure, this keyword and object prototyp
 - `for ... of` loops
 - **spread** operator - spread an iterator into an array or an argument list
 
-```
+```js
 var vals = [ ...it ];
 doSomethingUseful( ...it );
 ```
@@ -31,7 +31,7 @@ doSomethingUseful( ...it );
 
 - **Rest parameter**: collects all remaining elements into an array.
 
-```
+```js
 function add(...args) {
   let result = 0;
 
@@ -43,7 +43,7 @@ function add(...args) {
 
 - **Spread operator**: allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements.
 
-```
+```js
 const arr = ["Joy", "Wangari", "Warugu"];
 const newArr = ["joykare", ...arr];
 ```
@@ -58,7 +58,7 @@ const newArr = ["joykare", ...arr];
 - `new Map([iterable])`
 - is an iterable of an array or other iterable object whose elements are key-value pairs
 
-```
+```js
 let myMap = new Map([
   [1, 'one'],
   [2, 'two'],

@@ -49,7 +49,7 @@ The last two indicate emptiness (or absence) of a value.
 - with objects you access the element by a string location name (aka "key" or "property") rather than by its numeric position (as with arrays)
 
 ## Types
-```
+```js
 - typeof 42;                  // "number"
 - typeof "abc";               // "string"
 - typeof true;                // "boolean"
@@ -83,7 +83,7 @@ The last two indicate emptiness (or absence) of a value.
 - is a statement in itself, not an expression in another statement 🤔
 - The association between the identifier `awesomeFunction` and the function value here, happens during the compile phase of the code before that code is executed.
 
-```
+```js
 function awesomeFunction(coolThings) {
     // ..
     return amazingStuff;
@@ -94,7 +94,7 @@ function awesomeFunction(coolThings) {
 
 - Different from the function declaration form, a function expression is not associated with its identifier until that statement is executed during runtime.
 
-```
+```js
 var awesomeFunction = function(coolThings) {
     // ..
     return amazingStuff;
@@ -119,7 +119,7 @@ var awesomeFunction = function(coolThings) {
 
 😰 Edge cases
 
-```
+```js
 NaN === NaN;            // false use Number.isNaN(..) instead
 0 === -0;               // true use Object.is(..)
 
@@ -135,7 +135,7 @@ NaN === NaN;            // false use Number.isNaN(..) instead
 - The array structure and contents don't matter in this comparison, only the reference identity.
 - To do a structural equality comparison, you'll need to implement the checks yourself.
 
-```
+```js
 var x = [ 1, 2, 3 ];
 
 // assignment is by reference-copy, so

@@ -12,7 +12,7 @@ description: "Three pillars of JS: scope & closure, prototypes, types & coercion
 - 📺 Additional resource: [Deep JavaScript Foundations on FrontEnd Masters](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 ## 1. Scope and Closure
-- JavaScript organizes scopes with functions and blocks.
+- JavaScript organizes the different scopes with functions and blocks.
 - Scopes nest inside each other, and for any given expression or statement, only variables at that level of scope nesting or in higher/outer scopes are accessible; variables from lower/inner scopes are hidden and inaccessible.
 
 So, in a nutshell:
@@ -114,7 +114,7 @@ Falsy values:
 
 The ""root of all evil in JS"":
 
-```
+```js
 Number("")
 0
 ```
