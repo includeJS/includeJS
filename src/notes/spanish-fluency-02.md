@@ -52,14 +52,14 @@ These are the podcasts I'm currently listening to:
 
 - **¡Con amor, carajo!** - with the tagline "self-help stuff for women that don't like self-help stuff" and a curse word right there in the title, this is currently my favorite.
 
-- **Se regalan dudas** - two ladies talk about stuff. I haven't gathered much more than that. Also, sometimes there're guests. In every episode, we realize that we should _Be Grateful_ 🙏.
+- **Se regalan dudas** - two ladies talk about stuff. I haven't gathered much more than that. Also, sometimes there are guests. In every episode, we realize that we should _Be Grateful_ 🙏.
 
 #### Netflix and shit
 
 - I've watched the Spanish series **Valeria**. It's like Sex in the city where everyone gets to sleep with each other and the city is Madrid. (I'm sorry, I didn't really watch Sex in the City, was that the plot?) Right, also shoes! Except, in Valeria there's less emphasis on shoes and more just about generally looking fab. I took many a screenshot and shared it with Valerie (the wife) - I'll probably live to regret this 🤔.
 - I've now started watching **ControlZ**, which is about a hacker harassing (rich and spoiled) teenagers and exposing their super drama-packed lives. I watched three episodes, haven't decided yet if I want to continue.
 - I also watched one episode of reality TV series based around Mexico City socialites - it was such cringe I could only stomach one episode. "O sea" this and "o sea" that... (this is how they say "Like...").
-  Ooo and "neta" means "for realz?!" so at least I learned some vocabulary to annoy the wife with (she insist on learning proper 16th century Spanish - in case I get kidnapped by the Spanish royals, I suppose).
+  Ooo and "neta" means "for realz?!" so at least I learned some vocabulary to annoy the wife with (she insists on learning proper 16th century Spanish - in case I get kidnapped by the Spanish royals, I suppose).
 
 Speaking of vocabulary, do you know how crocodiles are called in Spanish? "Cocodrilo". **Co-co-drilo**. _Neta Spanish, neta?_
 
