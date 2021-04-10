@@ -33,6 +33,12 @@ module.exports = (config) => {
     return minified.code;
   });
 
+  config.addFilter("getRandom", function(items) {
+		let selected = items[Math.floor(Math.random() * items.length)];
+		return selected;
+	});
+
+
   // transforms
   config.addTransform("parse", parseTransform);
   config.addTransform("htmlmin", htmlMinTransform);

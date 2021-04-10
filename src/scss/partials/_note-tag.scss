@@ -4,6 +4,11 @@
   align-items: flex-start;
 }
 
+.l-note .random {
+  color: $violet;
+  font-weight: 700;
+}
+
 .l-note-tags {
   list-style: none;
   display: flex;

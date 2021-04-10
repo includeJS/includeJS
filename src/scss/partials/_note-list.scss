@@ -17,6 +17,10 @@
   justify-content: center;
 }
 
+.l-note-intro h1 {
+  color: $violet;
+}
+
 .l-note-intro > * + * {
   margin-top: 1rem;
 }
