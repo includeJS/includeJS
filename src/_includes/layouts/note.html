@@ -38,13 +38,10 @@ site.authorName %}
         {% endfor %}
       </ul>
       {% endif %}
-    </div>
-    <div class="l-note">
-      {% set randomPost = collections.notes | getRandom %}
-      <p>
-        <span class='random'>🤓 Read a random note:</span>
-        <a href="{{randomPost.url}}">{{ randomPost.data.title }}</a>
-      </p>
+      <div class="l-note">
+        {% set randomPost = collections.notes | getRandom %}
+      <p><a href="{{randomPost.url}}"><span class='random'>Read a random note 🎲</span></a></p>
+      </div>
     </div>
   </footer>
 </div>
