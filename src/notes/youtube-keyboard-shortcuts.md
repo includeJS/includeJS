@@ -51,7 +51,7 @@ To change the playback speed, use:
 
 ### Viewing modes 🍿
 
-hit:
+hit 🥊:
 
 - **`f`** for full-screen (hit `f` again to untoggle the mode)
 
@@ -64,7 +64,7 @@ Press **`m`** to mute or unmute.
 
 ## Other miscellaneous tips 🤔
 
-### Adds
+### Ads
 
 Use **uBlock Origin** to skip ads
 
