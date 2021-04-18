@@ -4,8 +4,6 @@ layout: "layouts/page.html"
 metaDesc: "includeJS about me"
 ---
 
-## About Me
-
 I'm Eva, a self-taught web developer currently living in Brussels.
 
 **Below is a list of things I'm interested in or currently studying.**
