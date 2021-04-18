@@ -1,6 +1,6 @@
 module.exports = {
   name: "includeJS",
-  url: "https://includejs.dev",
+  url: "https://includejs.dev/",
   authorName: "Eva Dee",
   authorEmail: "includejsdev@gmail.com",
   shortDesc: "Notes from a self-taught web developer.",
