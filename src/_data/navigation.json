@@ -24,6 +24,11 @@
       "text": "Twitter",
       "url": "https://twitter.com/GirlsCodeMK",
       "external": true
+    },
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": false
     }
   ]
 }
