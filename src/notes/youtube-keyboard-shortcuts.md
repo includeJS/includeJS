@@ -1,10 +1,11 @@
 ---
 path: "/youtube-keyboard-shortcuts"
 date: "2021-04-18"
-title: "My favorite YouTube keyboard shortcuts and privacy/security settings"
+title: "How to get more out of YouTube (with keyboard shortcuts)"
 tags:
   - productivity
   - keyboard-shortcuts
+description: "My favorite YouTube keyboard shortcuts and privacy/security settings. 🤓"
 ---
 
 I'm busy, okay, and don't have time to watch videos at their normal speed 😊!
