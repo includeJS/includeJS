@@ -10,7 +10,7 @@ They are intended for junior and mid-level developers who are committed to learn
 
 We meet weekly on Zoom (Europe evening timezone). We organize ourselves through Discord and follow the includeJS Code of Conduct. We particularly welcome self-taught developers and career changers from diverse backgrounds.
 
-**If you're interested in joining one of our groups in the future, send me a Twitter DM 👍.**
+**If you're interested in joining one of our groups in the future, send me a [Twitter DM](https://twitter.com/GirlsCodeMK) 👍.**
 
 So far we've studied:
 
