@@ -6,6 +6,7 @@ tags:
   - missing-semester
   - bash
   - productivity
+  - keyboard-shortcuts
 description: "Miscellaneous programming topics and tools: keyboard remapping, daemons, virtual machines and more 💪"
 ---
 

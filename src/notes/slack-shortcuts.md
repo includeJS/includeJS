@@ -2,7 +2,7 @@
 path: "/slack-shortcuts"
 date: "2020-04-07"
 title: "Most Useful Slack Shortcuts"
-tags: ["productivity"]
+tags: ["productivity", "keyboard-shortcuts"]
 description: "More Slack Shortcuts Here"
 link: "https://usethekeyboard.com/slack/"
 ---
