@@ -49,6 +49,14 @@ For a multi-line entry (in the `Console`)
 
 To focus next/previous panel in the dev tools.
 
+- `cmd + shift + d`
+
+Switch back to whatever docking position you last used.
+
+- `cmd + shift + p`
+
+Open the Command Menu.
+
 ## Have you ever wondered how to access `console.log` values? Wonder no more
 
 Go to the console, right-click on the logged value and click **Store as Global Variable**.
