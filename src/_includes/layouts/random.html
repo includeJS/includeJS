@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+{% set introHeading %}Random note{% endset %}
+
+
+{% set noteListItems = collections.notes | getRandom %}
+{% block content %}
+<div class="l-stack l-stack--large">
+<p>this is new</p>
+    {% include "partials/note-list.html" %}
+</div>
+{% endblock %}

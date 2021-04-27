@@ -13,7 +13,7 @@ includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught so
 🙋‍♀️I:
 
 - **read** and **write** (checkout <a href='/tags'>Tags</a> to get an idea)
-- **organise** <a href='/about/#heading-study-groups'>study groups</a>
+- **organise** includeJS <a href='/about/#heading-study-groups'>study groups</a> (and I've previously organised Django Girls workshops, Cryptoparties, NodeSchool workshops, Hackathons and a bazillion of meetups)
 - **have** a 🐕 and 🐈🐈
 - **live** in Brussels 🍺🍟🍫
 - **speak** 🇸🇮🇨🇳 🇬🇧 🏳️‍🌈🇪🇸 (well, sort of, see how I'm doing <a href='tags/spanish'>here</a>)
