@@ -9,7 +9,7 @@ const fonts = async () => {
 
   // Grabs fonts and CSS from google and puts in the public folder
   const result = await instance.download(
-    'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Maitree:wght@400;700&display=swap'
+    'https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Maitree:wght@400;700&display=swap'
 
   );
 
