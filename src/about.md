@@ -4,7 +4,7 @@ layout: "layouts/page.html"
 metaDesc: "includeJS about me"
 ---
 
-I'm Eva, a self-taught web developer currently living in Brussels.
+👋 I'm Eva, a self-taught software developer currently living in Brussels.
 
 **Below is a list of things I'm interested in or currently studying.**
 
@@ -20,7 +20,7 @@ If you would like to talk to me about any of these, get in touch:
 - email: includejsdev (at) gmail (dot) com
 - [Twitter](https://twitter.com/GirlsCodeMK) (I don't check it that often)
 
-## Study Groups
+## 📚 Study Groups
 
 **I organize weekly study groups that center around learning JavaScript and computer science.**
 
