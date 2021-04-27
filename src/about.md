@@ -18,7 +18,7 @@ I'm Eva, a self-taught web developer currently living in Brussels.
 If you would like to talk to me about any of these, get in touch:
 
 - email: includejsdev (at) gmail (dot) com
-- [Twitter](https://twitter.com/GirlsCodeMK)
+- [Twitter](https://twitter.com/GirlsCodeMK) (I don't check it that often)
 
 ## Study Groups
 
@@ -28,7 +28,7 @@ They are intended for junior and mid-level developers who are committed to learn
 
 We meet weekly on Zoom (Europe evening timezone). We organize ourselves through Discord and follow the includeJS Code of Conduct. We particularly welcome self-taught developers and career changers from diverse backgrounds.
 
-**If you're interested in joining one of our groups in the future, get int touch (see above for how).
+\*\*If you're interested in joining one of our groups in the future, get int touch (see above for how).
 
 So far, we've studied:
 

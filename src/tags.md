@@ -12,5 +12,6 @@ pagination:
     - posts
     - tagList
     - postFeed
+  addAllPagesToCollections: true
 permalink: /tags/{{ tag }}/
 ---

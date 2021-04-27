@@ -38,6 +38,10 @@ module.exports = (config) => {
 		return selected;
 	});
 
+  config.addFilter("filterTagList", tags => {
+    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+  })
+
 
   // transforms
   config.addTransform("parse", parseTransform);
@@ -52,6 +56,15 @@ module.exports = (config) => {
     return [...collection.getFilteredByGlob("./src/notes/*.md")]
       .reverse()
       .slice(0, site.notesPerPage);
+  });
+
+  config.addCollection("tagList", (collection) => {
+    let tagSet = new Set();
+    collection.getAll().forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+
+    return [...tagSet];
   });
 
   // shortcodes
