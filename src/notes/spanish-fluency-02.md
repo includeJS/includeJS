@@ -8,7 +8,7 @@ tags:
 description: "Okay, so I'm now halfway through my Spanish learning journey aka three months in! 🏇"
 ---
 
-**📺 Previously:** [Updates from the 1/3 down the line.]('./spanish-fluency-01.md')
+**📺 Previously:** <a href='/notes/spanish-fluency-01/'>Updates from the 1/3 down the line</a>
 
 **Super quick recap**: this is how I self-graded my Spanish at the end of the first two months:
 
