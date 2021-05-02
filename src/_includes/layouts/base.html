@@ -1,16 +1,19 @@
-{% set assetHash = global.random() %}
-{% set introHeading = title %}
-{% set footerSummary = site.footerSummary %}
-{% set metaDescription = description if description else
-  site.shortDesc %}
+{% set assetHash = global.random() %} {% set introHeading = title %} {% set
+footerSummary = site.footerSummary %} {% set metaDescription = description if
+description else site.shortDesc %}
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.title }}"
+      href="{{ site.url }}/feed.xml"
+    />
 
     {% if site.theme %}
     <style>
@@ -39,28 +42,39 @@
       }
     </style>
     {% endif %}
-  <link rel="stylesheet" media="print" href="/fonts/fonts.css" onload="this.media='all'" />
-  <style>{% include "css/styles.css" %}</style>
+    <link
+      rel="stylesheet"
+      media="print"
+      href="/fonts/fonts.css"
+      onload="this.media='all'"
+    />
+    <style>
+      {% include "css/styles.css" %}
+    </style>
 
-  {% include "partials/global/meta-info.html" %}
-  {% block head %}{% endblock %}
-</head>
+    {% include "partials/global/meta-info.html" %} {% block head %}{% endblock
+    %} {% seo "" %}
+  </head>
 
-<body>
+  <body>
     <body>
-    <a class="visually-hidden skip-content" href="#main-content">Skip to content</a>
-    <div class="l-page">
+      <a class="visually-hidden skip-content" href="#main-content"
+        >Skip to content</a
+      >
+      <div class="l-page">
         {% include "partials/global/site-head.html" %}
-      <main id="main-content" tabindex="-1">
-        <div class="l-stack l-stack--large">
-          {% block content %}{% endblock content %}
-          {% block foot %}
-            {% include "partials/global/site-foot.html" %}
-          {% endblock %}
-        </div>
-      </main>
-    </div>
-    <script data-goatcounter="https://includejs.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <main id="main-content" tabindex="-1">
+          <div class="l-stack l-stack--large">
+            {% block content %}{% endblock content %} {% block foot %} {%
+            include "partials/global/site-foot.html" %} {% endblock %}
+          </div>
+        </main>
+      </div>
+      <script
+        data-goatcounter="https://includejs.goatcounter.com/count"
+        async
+        src="//gc.zgo.at/count.js"
+      ></script>
+    </body>
   </body>
-</body>
 </html>

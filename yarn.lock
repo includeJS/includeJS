@@ -1898,6 +1898,14 @@ ejs@^2.7.4:
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
+eleventy-plugin-seo@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-seo/-/eleventy-plugin-seo-0.5.1.tgz#d7e44ff7e2944ff56a86e1c303eb50e1db4c507f"
+  integrity sha512-rNzVeGGsUWBOW74JaP/7po5EbYttF8+fMMXwYzhkV6gYFXOwouVnadrHoyTcHJLwh9kJXx5WAOPIBSyghYmXPA==
+  dependencies:
+    html-entities "^1.2.1"
+    lodash "^4.17.19"
+
 emitter-mixin@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/emitter-mixin/-/emitter-mixin-0.0.3.tgz#5948cb286f2e48edc3b251a7cfc1f7883396d65c"
@@ -3175,6 +3183,11 @@ html-encoding-sniffer@^1.0.2:
   integrity sha512-71lZziiDnsuabfdYiUeWdCVyKuqwWi23L8YeIgV9jSSZHCtb6wB1BKWooH7L3tn4/FuZJMVWyNaIDr4RGmaSYw==
   dependencies:
     whatwg-encoding "^1.0.1"
+
+html-entities@^1.2.1:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.4.0.tgz#cfbd1b01d2afaf9adca1b10ae7dffab98c71d2dc"
+  integrity sha512-8nxjcBcd8wovbeKx7h3wTji4e6+rhaVuPNpMqwWgnHh+N9ToqsCs6XztWRBPQ+UtzsoMAdKZtUENoVzU/EMtZA==
 
 html-minifier@^4.0.0:
   version "4.0.0"

@@ -2,6 +2,7 @@
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Terser = require("terser");
+const pluginSEO = require("eleventy-plugin-seo");
 
 // filters
 const dateFilter = require("./src/filters/date-filter.js");
@@ -18,6 +19,14 @@ module.exports = (config) => {
   // plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+  config.addPlugin(pluginSEO, {
+    title: "includeJS",
+    description: "Thoughts from a self-taught software developer",
+    url: "https://includejs.dev",
+    author: "Eva Dee",
+    twitter: "GirlsCodeMK",
+    image: "./dist/images/soc-share.jpg"
+  });
 
   // filters
   config.addFilter("dateFilter", dateFilter);
