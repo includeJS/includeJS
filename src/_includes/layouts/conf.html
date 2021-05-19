@@ -1,0 +1,55 @@
+{% extends 'layouts/base.html' %} {% set introSummary %}
+<div class="l-stack">
+  {% if description %}
+  <p class="note-description">{{ description | safe }}</p>
+  {% endif %}
+</div>
+{% endset %} {% block content %}
+<div class="l-stack">
+  <article class="h-entry t-page" class="l-container">
+    <div class="l-stack l-stack--large">
+      <div class="l-container">
+        <div class="l-stack">{{ content | safe }}</div>
+
+        <div class="contact-container">
+          <div class="contact-title">
+            <h2>Contact me</h2>
+          </div>
+
+          <form
+            name="Contact Form"
+            method="POST"
+            data-netlify="true"
+            class="contact-form"
+          >
+            <input type="hidden" name="form-name" value="Contact Form" />
+            <div>
+              <label
+                >Your email:
+                <input type="email" name="email" class="contact-form-input" />
+              </label>
+            </div>
+            <div>
+              <label
+                >Your name:
+                <input type="text" name="name" class="contact-form-input" />
+              </label>
+            </div>
+            <div>
+              <label>
+                Message:
+                <textarea
+                  name="message"
+                  class="contact-form-textarea"
+                  placeholder="Tell me one surprising | interesting | shocking thing about the includeJS member that is inviting you. "
+                ></textarea>
+              </label>
+            </div>
+            <input type="submit" value="Send message" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+{% endblock %} {{ content | safe }}

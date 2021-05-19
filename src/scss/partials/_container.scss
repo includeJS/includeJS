@@ -17,3 +17,76 @@ $bp-container: 800px;
 .l-measure {
   max-width: 65ch;
 }
+
+.contact-container {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-container {
+  display: block;
+  border-radius: 5px;
+  margin: 75px auto;
+  padding: 20px;
+  max-width: 450px;
+}
+
+.contact-title {
+  display: inline-block;
+}
+
+.contact-title h2 {
+  padding: 0 10px 0 0px;
+  margin: 5px 0;
+}
+
+.contact-form {
+  padding: 10px 10px 0 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  resize: none;
+  padding: 0 5px;
+  box-sizing: border-box;
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  color: #243b53;
+}
+
+input[type="text"] {
+  padding: 0;
+  height: 40px;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.contact-form-input {
+  margin: 5px 0 10px 0;
+}
+
+.contact-form-textarea {
+  margin: 5px 0;
+  width: 100%;
+  height: 150px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+  background-color: $violet;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
