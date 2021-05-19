@@ -29,11 +29,11 @@ I'll be posting more details in the coming days, but this is the barebones.
 
 ## Date?
 
-May 26, 2021, at 8pm CEST (if you're in a different time-zone, check when here), for about 90 minutes.
+**May 26, 2021, at 8pm CEST** (if you're in a different time-zone, check when [here](https://everytimezone.com/s/403a067f)), for about 90 minutes.
 
 ## Where?
 
-A private zoom call. Please note that this event is invite-only and intended only for includeJS members and their friends. 😊
+A private zoom call. **Please note that this event is invite-only and intended only for includeJS members and their friends.** 😊
 
 Are you a friend?
 Who knows!
