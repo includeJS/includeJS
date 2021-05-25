@@ -4,7 +4,7 @@ date: "2021-05-25"
 title: "You Don't Know JS: Book 2 (Scope and Closure) - 01 What's the Scope?"
 tags:
   - javascript
-  - ydkjs
+  - ydkjs2
 description: "My notes from Kyle Simpson's (aka getify's) 2nd book, spoiler alert: twas difficult 😅"
 ---
 
