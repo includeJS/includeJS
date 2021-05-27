@@ -19,7 +19,6 @@ $bp-site-head: 600px;
   padding: 1rem 0;
   margin: 0.5rem 0;
   flex-wrap: wrap;
-  margin-top: 3rem;
 }
 
 .l-site-head > * + * {
@@ -36,8 +35,12 @@ $bp-site-head: 600px;
 }
 
 .l-site-name > *:first-child {
-  position: absolute;
-  left: 3rem;
+  margin-right: 0.5rem;
+  margin-left: -2.5rem;
+
+  &:focus {
+    margin-left: -2.5rem;
+  }
 }
 
 .l-site-name--footer > *:first-child {
