@@ -1,11 +1,11 @@
 ---
 path: "/mini-conf"
 date: "2021-05-30"
-title: "incudeJS mini-conf is done! 🎉
+title: "incudeJS mini-conf is done! 🎉"
 tags:
   - miniconf
   - community
-description: "Notes, thoughts, observations after hosting the first ever includeJS mini-conf"
+description: "Notes, thoughts, observations after hosting the first ever includeJS mini-conf. 📝"
 ---
 
 This past week we hosted includeJS's first-ever mini-conf. It included four speakers, an amazing audience of the nicest and friendliest peoples, and it was magnificent.
