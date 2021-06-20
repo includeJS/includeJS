@@ -21,4 +21,5 @@ includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught so
 
 #### Projects
 
+- [includeJS TV 📺](https://www.youtube.com/channel/UCUBwCv5KytWofgJKWtLcaAw) (some of my Twitch streams from the "Teach me something" series)
 - [Boardgame Co-op 🎲](https://boardgame-coop.netlify.app/) (a collection of my favorite co-op boardgames for 2 players)
