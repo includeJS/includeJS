@@ -18,3 +18,7 @@ includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught so
 - **live** in Brussels 🍺🍟🍫
 - **speak** 🇸🇮🇨🇳🇬🇧🏳️‍🌈🇪🇸 (well, sort of, see how I'm doing <a href='tags/spanish'>here</a>)
 - **use** a lot of emojis 😬 (but somehow never managed to learn how to use gifs 🤷‍♀️)
+
+#### Projects
+
+- [Boardgame Co-op 🎲](https://boardgame-coop.netlify.app/) (a collection of my favorite co-op boardgames for 2 players)

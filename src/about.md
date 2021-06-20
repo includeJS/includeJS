@@ -36,3 +36,4 @@ So far, we've studied:
 - The Opinionated Guide to React (by Sara Vieira)
 - CS50 (by Harvard)
 - You Don't Know JS (Kyle Simpson)
+- JS30 (Wes Bos)
