@@ -76,3 +76,7 @@ To start private browsing.
 - `cmd + k`
 
 Move focus to the Search bar.
+
+- `cmd + up/down arrow`
+
+Go to the top/bottom of a webpage.
