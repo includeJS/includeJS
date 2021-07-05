@@ -44,11 +44,11 @@ and to help with context-filling, I've also started [this huge Memrise deck of A
 
 _Cooficial_ means official. Why, Spanish, why? 💔
 
-## 📺
+## 📺 TV
 
 The only thing that I watched in Spanish this past month is the Netflix series Club de Cuervos. I know, I know, it's about football, which is just about the boringest thing one can watch; however, it's Mexican-made (_mi gente_), quick, funny, and easy to follow. I watched an entire season and then gave up - all the family back-stabbing was just too stressful to watch.
 
-### 📚
+## 📚 Books
 
 I've finished the rest of the YA literature that I could find at home, mainly:
 
@@ -74,7 +74,7 @@ Anyway, so I finished this one book (prolly one of the Agatha Christies) and fel
 
 It turns out, however! that _carcajear_ means full-on laughter, like guffaw, ha-ha-ha, holding my belly, about to fall off my chair laughing. This kind of makes me happy because people (women even) in that Agatha Christie book were indeed hilarious. I just didn't get it. 😳
 
-## 🎧
+## 🎧 Music & Podcasts
 
 This month I "discovered" a bunch of cool Latino music!
 
