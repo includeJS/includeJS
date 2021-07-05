@@ -1,7 +1,7 @@
 ---
 path: "/spanish-fluency-05"
 date: "2021-07-06"
-title: "Spanish is... best eaten in a taco? 🤔"
+title: "Spanish is... best eaten as a taco? 🤔"
 tags:
   - language
   - Spanish
