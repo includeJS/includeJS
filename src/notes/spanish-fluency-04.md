@@ -8,7 +8,7 @@ tags:
 description: "Thoughts, plans, ideas sprinkled with some worries and frustration five months into my Spanish language journey."
 ---
 
-**📺 Previously:** <a href='/notes/spanish-fluency-03/'>Updates from last month.</a>
+**📺 Previously:** <a href='/notes/spanish-fluency-03/'>Updates from the last month.</a>
 
 Remember how back in January I said that I'm giving myself 6-months of daily Spanish grind to achieve some sort of advanced level of Spanish? By June? Of this year?
 
