@@ -3,7 +3,8 @@ module.exports = {
   url: "https://includejs.dev",
   authorName: "Eva Dee",
   authorEmail: "includejsdev@gmail.com",
-  shortDesc: "Thoughts from a self-taught software developer",
+  shortDesc:
+    "Thoughts on computer science, HTML, CSS, JavaScript, Bash, productivity, study tips, language learning, and community organizing.",
   theme: {
     primary: {
       background: "white",
