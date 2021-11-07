@@ -1,5 +1,5 @@
 ---
-title: "includeJS: notes from a self-taught developer and community organizer"
+title: "includeJS - learning JavaScript"
 layout: "layouts/home.html"
 notesHeading: Latest notes
 allNotesText: See all notes
