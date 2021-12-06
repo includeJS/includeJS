@@ -17,6 +17,7 @@ includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught so
 - **have** a 🐕 and 🐈🐈
 - **live** in Brussels 🍺🍟🍫
 - **speak** 🇸🇮🇨🇳🇬🇧🏳️‍🌈🇪🇸 (well, sort of, see how I'm doing <a href='tags/spanish'>here</a>)
+- **learning** 🇬🇷 (see <a href='tags/greek'>here</a>)
 - **use** a lot of emojis 😬 (but somehow never managed to learn how to use gifs 🤷‍♀️)
 
 #### Projects
