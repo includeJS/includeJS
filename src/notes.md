@@ -4,6 +4,6 @@ layout: "layouts/notes.html"
 metaDesc: "Latest notes on includeJS"
 pagination:
   data: collections.notes
-  size: 10
+  size: 20
   alias: notes
 ---
