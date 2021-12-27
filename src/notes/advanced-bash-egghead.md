@@ -133,3 +133,7 @@ A `.plist` file is an `XML`-formatted file for macOS.
 - `~/Library/LaunchAgents/`
 
 List all applications with job configuration.
+
+## Similar notes
+- [Automate with Bash](/notes/automate-with-bash)
+- [Notes from Command Line Course by Remy Sharp](/notes/remy-CLI)

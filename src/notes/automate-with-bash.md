@@ -127,3 +127,7 @@ check_status() {
 ```
 
 Curl a `URL` and check if it responds with a 200 range status. The complicated bit is just cutting the status code from the `curl` response header.
+
+## Similar notes
+- [Better (Automated) GitHub Workflows](/notes/github-automate)
+- [Notes from Command Line Course by Remy Sharp](/notes/remy-CLI)

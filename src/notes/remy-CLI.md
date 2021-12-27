@@ -187,3 +187,7 @@ Find all node processes.
 - **`ps auxww | grep node | awk '{ print $1 }' | xargs kill`**
 
 Find them and destroy them! `xargs` takes the pipped in output and takes it as an argument for the next thing.
+
+## Similar notes
+- [My favorite command line one-liners (from Linux Comand Library) 🤓"](/notes/command-line-one-liners)
+- [Automate with Bash](/notes/automate-with-bash)
