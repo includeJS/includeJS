@@ -3,6 +3,7 @@ permalink: /tags/
 layout: "layouts/page.html"
 metaDesc: "Explore the notes with tags"
 title: "Tags"
+ignore: true
 ---
 
 <ul class='l-note-tags'>

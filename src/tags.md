@@ -14,4 +14,5 @@ pagination:
     - postFeed
   addAllPagesToCollections: true
 permalink: /tags/{{ tag }}/
+ignore: true
 ---
