@@ -9,7 +9,7 @@ I am an excellent problem solver; I'm always curious and an avid notetaker. I'm 
 
 Working remotely throughout most of my career has honed my ability to work and communicate effectively across different platforms and teams.
 
-Thanks to my technical expertise and team player skills, I am a great addition to any team; I have very high standards for my work and try to inspire positive change in others (warning: I don't care about tabs or spaces).
+Thanks to my technical expertise and team player skills, I am a great addition to any team; I have very high standards for my work and try to inspire positive change in others.
 
 I learn by doing and constantly challenge myself to improve the way I code and the quality of my work. I overdo emojis but don’t understand gifs (jifs?) 🤷‍♀️.
 
