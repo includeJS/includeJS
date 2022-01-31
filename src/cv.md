@@ -73,7 +73,7 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 **includeJS 2019 - Present**
 - Founder of an online community for underrepresented folks in tech with members from Europe and Africa
 - weekly, biweekly and monthly meetups on JavaScript, RactJS, C, and computer science
-- organized includeJS mini-conf: an online conference showcasing our members (LINK)
+- organized [includeJS mini-conf](/notes/mini-conf/): an online conference showcasing our members
 
 **GirlsCode MK 2017-2019**
 - Co-founder of a non-profit UK organization that teaches women how to code for free
