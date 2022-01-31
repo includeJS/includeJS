@@ -72,7 +72,7 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 
 **includeJS 2019 - Present**
 - Founder of an online community for underrepresented folks in tech with members from Europe and Africa
-- weekly, biweekly and monthly meetups on JavaScript, RactJS, C, and computer science
+- weekly, biweekly and monthly meetups on JavaScript, ReactJS, C, and computer science
 - organized [includeJS mini-conf](/notes/mini-conf/): an online conference showcasing our members
 
 **GirlsCode MK 2017-2019**
