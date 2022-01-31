@@ -3,19 +3,19 @@ title: "About Me"
 layout: "layouts/page.html"
 ---
 
-I'm a frontend developer with four years of experience, primarily in JavaScript, React, and Redux. I am a strong communicator and have a proven record of successfully working in geographically distributed teams.
+I'm a frontend developer with four years of experience, primarily in JavaScript, React, and Redux. I'm a strong communicator and have a proven record of successfully working in geographically distributed teams.
 
-I am an excellent problem solver; I'm always curious and an avid notetaker. I'm not afraid of challenges and thrive in healthy and dynamic teams.
+Thanks to my technical expertise and team player skills, I'm a great addition to any team; I have very high standards for my work and try to inspire positive change in others.
 
 Working remotely throughout most of my career has honed my ability to work and communicate effectively across different platforms and teams.
 
-Thanks to my technical expertise and team player skills, I am a great addition to any team; I have very high standards for my work and try to inspire positive change in others.
+I'm an excellent problem solver; I'm always curious and an avid notetaker. I'm not afraid of challenges and thrive in healthy and dynamic teams.
 
 I learn by doing and constantly challenge myself to improve the way I code and the quality of my work. I overdo emojis but don’t understand gifs (jifs?) 🤷‍♀️.
 
-I am the kind of person that will write a GitHub comment saying, "Hey, thanks for cleaning this up 🧹 !" or "Nice refactor 💪 !" because I appreciate your effort in making our code better.
+I'm the kind of person that will write a GitHub comment saying, "Hey, thanks for cleaning this up 🧹 !" or "Nice refactor 💪 !" because I appreciate your effort in making our code better.
 
-I champion diversity and inclusion, learning and development, and team cohesion.
+I champion diversity and inclusion, team cohesion, and learning and development. I know that positive and growth-promoting environments have a happier, more productive workforce.
 
 ## Technical skills
 I'm comfortable working with:
