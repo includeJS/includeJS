@@ -37,7 +37,7 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 - Accessibility
 - Public speaking
 - Leadership
-- Setting Boundaries ✋
+- Setting boundaries ✋
 - Project management
 - Giving feedback
 
