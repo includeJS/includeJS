@@ -43,7 +43,7 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 
 ## Experience
 
-**Frontend Developer at VIBBIO August 2019 - Present (remote)**
+**Frontend Developer at VIBBIO, August 2019 - Present (remote)**
 - transformed design sketches into ReactJS interfaces
 - refactored large portions of the app to modern ReactJS practices
 - lead in implementing VIBBIO's marketing website in 11ty (99 Lighthouse score)
@@ -51,17 +51,17 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 - worked on the backend nodeJS application, including setting up new routes and updating database models
 - wrote and implemented database migrations
 
-**Intern at Mozilla December 2018 - March 2019 (remote)**
+**Intern at Mozilla, December 2018 - March 2019 (remote)**
 - Recipient of Mozilla's [Outreachy](https://www.outreachy.org/) scholarship
 - Audited one of Mozilla's developer tools (perf-HTML) for accessibility issues
 - Fixed accessibility issues and promoted accessibility best practices
 - Presented at [FOSDEM](https://archive.fosdem.org/2019/schedule/event/when_perf_html_met_a11y/)
 
-**Freelance Web Developer 2017-2018 (remote)**
+**Freelance Web Developer, 2017-2018 (remote)**
 - Managed and designed WordPress and Shopify websites
 - Built a ReactJS app as part of [RGSoC](https://railsgirlssummerofcode.org/) scholarship
 
-**Operations Manager, eResource LTD, 2013 - 2017 (remote)**
+**Operations Manager at eResource LTD, 2013 - 2017 (remote)**
 - Managed a team of five remote employees
 - Oversaw EU sales channels on various platforms and worldwide
 - Organized, planned, and shipped new inventory
@@ -70,12 +70,12 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 
 ## Community work
 
-**includeJS 2019 - Present**
+**includeJS, 2019 - Present**
 - Founder of an online community for underrepresented folks in tech with members from Europe and Africa
 - weekly, biweekly and monthly meetups on JavaScript, ReactJS, C, and computer science
 - organized [includeJS mini-conf](/notes/mini-conf/): an online conference showcasing our members
 
-**GirlsCode MK 2017-2019**
+**GirlsCode MK, 2017-2019**
 - Co-founder of a non-profit UK organization that teaches women how to code for free
 - Welcomed more than 600 members, organized more than 80 meetups and workshops
 - Co-founder of Milton Keynes branches for NodeSchool MK, CryptoParty MK, Django Girls MK
