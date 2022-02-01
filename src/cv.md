@@ -2,6 +2,7 @@
 title: "About Me"
 layout: "layouts/page.html"
 ---
+
 I'm a frontend developer with four years of experience, primarily in JavaScript, React, and Redux. I'm a strong communicator and have a proven record of successfully working in geographically distributed teams.
 
 Thanks to my technical expertise and team player skills, I'm a great addition to any team; I have very high standards for my work and try to inspire positive change in others.
@@ -15,6 +16,13 @@ I learn by doing and constantly challenge myself to improve the way I code and t
 I'm the kind of person that will write a GitHub comment saying, "Hey, thanks for cleaning this up 🧹 !" or "Nice refactor 💪 !" because I appreciate your effort in making our code better.
 
 I champion diversity and inclusion, team cohesion, and learning and development. I know that positive and growth-promoting environments have a happier, more productive workforce.
+
+**Find me online here**:
+
+- [GitHub](https://github.com/edieblu)
+- [Twitter](https://twitter.com/GirlsCodeMK)
+- [LinkedIn](https://www.linkedin.com/in/evamartinawebdev/)
+- [Email](mailto:includejsdev@gmail.com)
 
 ## Technical skills
 I'm comfortable working with:
@@ -96,9 +104,3 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 - **Spanish** (fluent)
 - **French** (can, but only if pressured)
 - **Greek** (work in progress)
-
-## Find me
-- [GitHub](https://github.com/edieblu)
-- [Twitter](https://twitter.com/GirlsCodeMK)
-- [Email](mailto:includejsdev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/evamartinawebdev/)

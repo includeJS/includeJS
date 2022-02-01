@@ -18,7 +18,7 @@ metaDesc: "includeJS about me"
 If you would like to talk to me about any of these, get in touch:
 
 - email: includejsdev (at) gmail (dot) com
-- [Twitter](https://twitter.com/GirlsCodeMK) (I don't check it that often)
+- [Twitter](https://twitter.com/GirlsCodeMK)
 
 ## 📚 Study Groups
 
