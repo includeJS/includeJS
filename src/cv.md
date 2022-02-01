@@ -2,7 +2,6 @@
 title: "About Me"
 layout: "layouts/page.html"
 ---
-
 I'm a frontend developer with four years of experience, primarily in JavaScript, React, and Redux. I'm a strong communicator and have a proven record of successfully working in geographically distributed teams.
 
 Thanks to my technical expertise and team player skills, I'm a great addition to any team; I have very high standards for my work and try to inspire positive change in others.
@@ -44,7 +43,9 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 ## Experience
 
 **Frontend Developer at VIBBIO, August 2019 - Present (remote)**
+- worked for an online video editing tool startup in a relatively large codebase
 - transformed design sketches into ReactJS interfaces
+- juggled the app's complex state, speed and performance requirements, and continuous deployment of new features
 - refactored large portions of the app to modern ReactJS practices
 - lead in implementing VIBBIO's marketing website in 11ty (99 Lighthouse score)
 - collaborated with team members on testing, PRs, and RFCs
@@ -95,3 +96,9 @@ I have dabbled in Python (and Django), Ruby (and Ruby on Rails), NextJS, Gatsby,
 - **Spanish** (fluent)
 - **French** (can, but only if pressured)
 - **Greek** (work in progress)
+
+## Find me
+- [GitHub](https://github.com/edieblu)
+- [Twitter](https://twitter.com/GirlsCodeMK)
+- [Email](mailto:includejsdev@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/evamartinawebdev/)
