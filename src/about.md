@@ -4,7 +4,14 @@ layout: "layouts/page.html"
 metaDesc: "includeJS about me"
 ---
 
-👋 I'm Eva, a self-taught software developer currently living in Brussels.
+👋 I'm Eva, a self-taught software developer currently living in the UK.
+
+**Find me online here**:
+
+- [GitHub](https://github.com/edieblu)
+- [Twitter](https://twitter.com/GirlsCodeMK)
+- [LinkedIn](https://www.linkedin.com/in/evamartinawebdev/)
+- [Email](mailto:includejsdev@gmail.com)
 
 **Below is a list of things I'm interested in or currently studying.**
 
@@ -15,11 +22,7 @@ metaDesc: "includeJS about me"
 - getting better at learning and staying focused
 - being a good teacher and a communicator
 
-If you would like to talk to me about any of these, get in touch:
-
-- email: includejsdev (at) gmail (dot) com
-- [Twitter](https://twitter.com/GirlsCodeMK)
-
+If you would like to talk to me about any of these, get in touch! (see above for how)
 ## 📚 Study Groups
 
 **I organize weekly study groups that center around learning JavaScript and computer science.**
