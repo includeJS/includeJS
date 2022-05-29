@@ -5,6 +5,7 @@ title: "Managing complexity is the primary technical goal in software developmen
 tags:
   - cs
   - design
+  - code-complete
 description: "On managing complexity."
 ---
 
