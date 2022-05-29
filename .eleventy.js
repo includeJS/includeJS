@@ -25,7 +25,7 @@ module.exports = (config) => {
     url: "https://includejs.dev",
     author: "Eva Dee",
     twitter: "GirlsCodeMK",
-    image: "./dist/images/soc-share.jpg"
+    image: "./dist/images/soc-share.jpg",
   });
 
   // filters
@@ -42,15 +42,16 @@ module.exports = (config) => {
     return minified.code;
   });
 
-  config.addFilter("getRandom", function(items) {
-		let selected = items[Math.floor(Math.random() * items.length)];
-		return selected;
-	});
+  config.addFilter("getRandom", function (items) {
+    let selected = items[Math.floor(Math.random() * items.length)];
+    return selected;
+  });
 
-  config.addFilter("filterTagList", tags => {
-    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
-  })
-
+  config.addFilter("filterTagList", (tags) => {
+    return (tags || []).filter(
+      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+    );
+  });
 
   // transforms
   config.addTransform("parse", parseTransform);
@@ -69,8 +70,8 @@ module.exports = (config) => {
 
   config.addCollection("tagList", (collection) => {
     let tagSet = new Set();
-    collection.getAll().forEach(item => {
-      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    collection.getAll().forEach((item) => {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
     });
 
     return [...tagSet];
@@ -82,6 +83,7 @@ module.exports = (config) => {
   config.setUseGitIgnore(false);
   config.setQuietMode(true);
   config.addPassthroughCopy("./src/images/");
+  config.addPassthroughCopy("./src/admin");
   config.addPassthroughCopy({ "src/static": "/" });
 
   return {
