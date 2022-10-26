@@ -1,7 +1,7 @@
 ---
 title: We moved to Greece
 description: We started our drive on a Monday afternoon from the Lake District
-  in the UK and by Saturday night we made it to Athens, Greece
+  in the UK and by Saturday night we made it to Athens
 date: 2022-10-26T16:59:31.841Z
 tags:
   - Athens
