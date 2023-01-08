@@ -77,7 +77,7 @@ Because of Lottie, I've had to pick up NextJS and Tailwind. I've also spent a lo
 
 ## Goals for 2023
 
-**Learning (programming)**: Docker, AWS, Racket, maybe learn Vim? 🤷‍♀️ Get really good at TypeScript.
-**Learning (languages)**: Get Greek to an advanced level
-**Mentoring and organizing**: get back to mentoring and organizing study groups once I've recovered from the move.
-Generally try a lot of new things: new friends, experiences, places, food, drinks, dancing, singing, sports.
+**\- Learning (programming)**: Docker, AWS, Racket, maybe learn Vim? 🤷‍♀️ Get really good at TypeScript.
+**\- Learning (languages)**: Get Greek to an advanced level
+**\- Mentoring and organizing**: get back to mentoring and organizing study groups once I've recovered from the move.
+- Generally try a lot of new things: new friends, experiences, places, food, drinks, dancing, singing, sports.
