@@ -15,8 +15,8 @@ I passed the exam last week with a score of 853. So these are the resources that
 
 ## Courses
 
-* [Cantril](https://learn.cantrill.io/courses) video course, around 70 hours. In-depth introduction to various core services of AWS. I watched it at 1.5x the speed, which still took me a loooong time. The accompanying free technical foundations course is excellent for understanding things deeper. This course is really long and focuses more on your understanding of how AWS works (which is good!) instead of getting you ready for the exam. So take it, but understand that it's not enough. 
-* [Stephane Maarek Udemy course](https://www.udemy.com/user/stephane-maarek/). Shorter, quicker, less in-depth, more exam geared. Theoretical bits, followed by the practical bits. His course slides are well worth reviewing too. Less focused on how things work and more on exam questions.
+* [Cantril](https://learn.cantrill.io/courses) video course, around 70 hours. In-depth introduction to various core services of AWS. I watched it at 1.5x the speed, which still took me a loooong time. The accompanying free technical foundations course is excellent for understanding the fundamental (especially networking). This course is really long and focuses more on your understanding of how AWS works (which is good!) instead of just getting you ready for the exam. 
+* [Stephane Maarek Udemy course](https://www.udemy.com/user/stephane-maarek/). Shorter, quicker, less in-depth, more exam geared. Theoretical bits, followed by the practical bits. His course slides are well worth reviewing too. Less focused on how things work in-depth and more on exam questions.
 
 ## Mock Exams
 
@@ -41,4 +41,4 @@ Anyway, I followed the Cantril course with the Maarek course. From day 1, I also
 
 ### Would I change anything if I had to start it all over again?
 
-No, I don't think so. Do more labs and practical work, make sure that the knowledge sticks more, but the rest was great. Booking the exam early on puts that extra bit of motivation to get things done.
+No, I don't think so. Do more labs and practical work (the [Cantril labs](https://github.com/acantril/learn-cantrill-io-labs) are excellent with very clear walk throughs), and make sure that the knowledge sticks more, but the rest was great. Booking the exam early on puts that extra bit of motivation to get things done.
