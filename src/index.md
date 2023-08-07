@@ -10,7 +10,7 @@ Hi, and welcome! 👋
 
 includeJS is written and maintained by me, Eva Dee 👩‍💻, a self-taught software developer.
 
-🙋‍♀️I:
+🙋‍♀️I AM SUPER AWESOME:
 
 - **read** and **write** (checkout <a href='/tags'>Tags</a> to get an idea)
 - **organise** includeJS <a href='/about/#heading-study-groups'>study groups</a> (and I've previously organised Django Girls workshops, Cryptoparties, NodeSchool workshops, Hackathons and a bazillion of meetups)
