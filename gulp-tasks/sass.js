@@ -1,8 +1,9 @@
 const { dest, src } = require("gulp");
 const cleanCSS = require("gulp-clean-css");
-const sassProcessor = require("gulp-sass");
+const dartSass = require("sass");
+const gulpSass = require("gulp-sass");
 
-sassProcessor.compiler = require("sass");
+const sassProcessor = gulpSass(dartSass);
 
 const isProduction = process.env.NODE_ENV === "production";
 

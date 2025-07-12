@@ -1,7 +1,10 @@
+@use "sass:math";
+@use "theme" as *;
+
 $l-stack-bp: 600px;
 @media (min-width: $l-stack-bp) {
   .l-note-stack {
-    --l-stack-flex-basis: calc(50% - #{$BASE_UNIT / 2});
+    --l-stack-flex-basis: calc(50% - #{math.div($BASE_UNIT, 2)});
   }
 }
 
