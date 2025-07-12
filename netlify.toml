@@ -5,7 +5,7 @@ package = "@netlify/plugin-sitemap"
   buildDir = "dist"
 
 [build]
-  command = "yarn run production"
+  command = "npm run production"
   publish = "dist"
 
 [[redirects]]
