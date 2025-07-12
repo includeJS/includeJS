@@ -1,3 +1,5 @@
+@use "theme" as *;
+
 :root {
   line-height: $RATIO + 0.2;
   font-family: $FONT_NORMAL;

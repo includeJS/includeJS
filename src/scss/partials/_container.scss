@@ -1,7 +1,10 @@
+@use "sass:math";
+@use "theme" as *;
+
 $bp-container: 800px;
 
 .l-container {
-  --container-margin: #{$BASE_UNIT / 2};
+  --container-margin: #{math.div($BASE_UNIT, 2)};
 }
 
 @media (min-width: $bp-container) {
