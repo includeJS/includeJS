@@ -1,13 +1,16 @@
 const { dest, src } = require("gulp");
-const imagemin = require("gulp-imagemin");
 
-const images = () => {
+const images = async () => {
+  const imagemin = (await import("gulp-imagemin")).default;
+  const mozjpeg = (await import("imagemin-mozjpeg")).default;
+  const optipng = (await import("imagemin-optipng")).default;
+  
   return src("./src/images/**/*")
     .pipe(
       imagemin(
         [
-          imagemin.mozjpeg({ quality: 65, progressive: true }),
-          imagemin.optipng({ optimizationLevel: 5, interlaced: null }),
+          mozjpeg({ quality: 65, progressive: true }),
+          optipng({ optimizationLevel: 5, interlaced: null }),
         ],
         {
           silent: true,
