@@ -7,6 +7,7 @@ package = "@netlify/plugin-sitemap"
 [build]
   command = "npm run production"
   publish = "dist"
+  environment = { NODE_VERSION = "18" }
 
 [[redirects]]
     from = "/uses"
