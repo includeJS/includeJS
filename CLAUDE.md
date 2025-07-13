@@ -90,3 +90,21 @@ npx eleventy --serve  # Build site and serve with live reload
 - Images are automatically processed with lazy loading and caption support
 - The build system is optimized for both development (with source maps) and production (with minification)
 - Netlify handles deployment with automatic sitemap generation and URL redirects
+
+## GitHub Integration
+
+### Claude AI Assistant
+This repository is configured with Claude GitHub Actions for AI-powered assistance on issues and pull requests.
+
+#### Usage
+- Tag `@claude` in any issue comment, PR comment, or PR review to get Claude's help
+- Claude will analyze the code context using this CLAUDE.md file and provide relevant assistance
+- Examples:
+  - `@claude can you help me understand this build error?`
+  - `@claude please review this code change for potential issues`
+  - `@claude how should I implement lazy loading for this component?`
+
+#### Setup Requirements
+1. Add `ANTHROPIC_API_KEY` as a repository secret in GitHub Settings > Secrets and variables > Actions
+2. The workflow file is located at `.github/workflows/claude.yml`
+3. Claude responses will respect the project structure and conventions documented in this file

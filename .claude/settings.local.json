@@ -4,7 +4,8 @@
       "Bash(node:*)",
       "Bash(npm install:*)",
       "Bash(npm start)",
-      "Bash(npm run production:*)"
+      "Bash(npm run production:*)",
+      "WebFetch(domain:docs.anthropic.com)"
     ],
     "deny": []
   }
