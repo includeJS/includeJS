@@ -94,7 +94,7 @@ npx eleventy --serve  # Build site and serve with live reload
 ## GitHub Integration
 
 ### Claude AI Assistant
-This repository is configured with Claude GitHub Actions for AI-powered assistance on issues and pull requests.
+This repository is configured with the Claude GitHub App for AI-powered assistance on issues and pull requests.
 
 #### Usage
 - Tag `@claude` in any issue comment, PR comment, or PR review to get Claude's help
@@ -105,6 +105,6 @@ This repository is configured with Claude GitHub Actions for AI-powered assistan
   - `@claude how should I implement lazy loading for this component?`
 
 #### Setup Requirements
-1. Add `ANTHROPIC_API_KEY` as a repository secret in GitHub Settings > Secrets and variables > Actions
-2. The workflow file is located at `.github/workflows/claude.yml`
+1. Install the Claude GitHub App from the GitHub Marketplace on your repository
+2. Add `ANTHROPIC_API_KEY` as a repository secret in GitHub Settings > Secrets and variables > Actions
 3. Claude responses will respect the project structure and conventions documented in this file
