@@ -19,7 +19,14 @@ site.authorName %}
   <div class="l-stack l-stack--large">
     {% include "partials/note-intro.html" %}
     <div class="l-container l-measure">
-      <div class="l-stack">{{ content | safe }}</div>
+      <div class="l-stack">
+        <div class="speech-controls">
+          <button id="listen-btn" class="listen-btn" type="button" aria-label="Listen to this article">
+            Listen
+          </button>
+        </div>
+        <div id="blog-content" class="l-stack">{{ content | safe }}</div>
+      </div>
     </div>
   </div>
 </article>
