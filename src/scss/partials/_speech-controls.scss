@@ -1,0 +1,75 @@
+@use "theme" as *;
+
+.speech-controls {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 120px;
+  height: 50px;
+  font-family: $FONT_HEADINGS;
+  font-size: $SCALE--1;
+  font-weight: 500;
+  background: $COLOR_LIGHTER;
+  border: 2px solid $COLOR_LIGHT;
+  border-radius: 4px;
+  color: $COLOR_DARK;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background: $white;
+    border-color: $COLOR_MID;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+
+  // Add a subtle audio icon using CSS
+  &::before {
+    content: "🔊";
+    font-size: 0.9em;
+    margin-right: 0.25rem;
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+  }
+
+  // Change icon when button text is "Stop"
+  &[aria-label*="Stop"]::before {
+    content: "⏹";
+  }
+}
+
+// Make it responsive
+@media (max-width: 768px) {
+  .speech-controls {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .listen-btn {
+    padding: 0.75rem 1.25rem;
+    font-size: $SCALE-0;
+  }
+}
