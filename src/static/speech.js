@@ -10,11 +10,56 @@ function setupSpeechButton(contentSelector, buttonSelector) {
     let currentUtterance = null;
     let isSpeaking = false;
 
-    // Get the voice from document language
+    // Get the best female voice from document language
     function getPreferredVoice() {
         const htmlLang = document.documentElement.lang || 'en';
         const voices = window.speechSynthesis.getVoices();
-        return voices.find((v) => v.lang.startsWith(htmlLang)) || voices[0];
+        
+        // Helper function to check if voice is likely female
+        const isFemaleVoice = (voice) => {
+            const name = voice.name.toLowerCase();
+            return name.includes('female') || 
+                   name.includes('woman') || 
+                   name.includes('samantha') || 
+                   name.includes('susan') || 
+                   name.includes('victoria') || 
+                   name.includes('karen') || 
+                   name.includes('zira') || 
+                   name.includes('hazel') || 
+                   name.includes('serena') || 
+                   name.includes('alex') && name.includes('female');
+        };
+        
+        // First priority: high-quality female voices
+        const highQualityFemaleVoice = voices.find((v) => 
+            v.lang.startsWith(htmlLang) && 
+            isFemaleVoice(v) &&
+            (v.name.includes('Neural') || v.name.includes('Premium') || v.name.includes('Enhanced'))
+        );
+        
+        if (highQualityFemaleVoice) return highQualityFemaleVoice;
+        
+        // Second priority: any female voice matching the language
+        const femaleVoice = voices.find((v) => 
+            v.lang.startsWith(htmlLang) && isFemaleVoice(v)
+        );
+        
+        if (femaleVoice) return femaleVoice;
+        
+        // Third priority: high-quality voices (any gender)
+        const highQualityVoice = voices.find((v) => 
+            v.lang.startsWith(htmlLang) && 
+            (v.name.includes('Neural') || v.name.includes('Premium') || v.name.includes('Enhanced'))
+        );
+        
+        if (highQualityVoice) return highQualityVoice;
+        
+        // Fourth priority: any voice matching the language
+        const langVoice = voices.find((v) => v.lang.startsWith(htmlLang));
+        if (langVoice) return langVoice;
+        
+        // Final fallback
+        return voices[0];
     }
 
     function speakContent() {
@@ -34,7 +79,7 @@ function setupSpeechButton(contentSelector, buttonSelector) {
         if (voice) currentUtterance.voice = voice;
 
         // Set speech parameters for better experience
-        currentUtterance.rate = 0.9;
+        currentUtterance.rate = 1.2;  // Increased speed for better listening experience
         currentUtterance.pitch = 1;
         currentUtterance.volume = 1;
 
